@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /p2_landing_page.html
+      url: /documentation.html
       output: web
 
   - title: Simple Workflow
