@@ -2,61 +2,54 @@
 
 
 entries:
-- title: Sidebar
-  product: Product1
-  version: 1.0
-  folders:
+  - title: Sidebar
+    product: ARTIC Resources
+    #version: 1.0
+    folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+      - title:
+        output: pdf
+        type: frontmatter
+        folderitems:
+          - title:
+            url: /titlepage.html
+            output: pdf
+            type: frontmatter
+          - title:
+            url: /tocpage.html
+            output: pdf
+            type: frontmatter
 
-  - title: Getting Started
-    output: web, pdf
-    folderitems:
-    - title: Product 1 home
-      url: /resources.html
-      output: web
+      - title: Resources by virus
+        output: web, pdf
+        folderitems:
+          - title: Viruses
+            url: /resources.html
+            output: web
 
-    - title: Sample 1
-      url: /p1_sample1.html
-      output: web, pdf
+          - title: MPXV | mpox
+            url: /mpxv.html
+            output: web, pdf
 
-    - title: Sample 2
-      url: /p1_sample2.html
-      output: web, pdf
+          - title: SARS-CoV-2 | COVID-19
+            url: /resources/sars-cov-2.html
+            output: web, pdf
 
-    - title: Sample 3
-      url: /p1_sample3.html
-      output: web, pdf
+          - title: EBOV | Ebola virus
+            url: /ebov.html
+            output: web, pdf
 
-  - title: Another heading
-    output: web, pdf
 
-    folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
-      output: web, pdf
+      - title: Protocols
+        output: web, pdf
 
-    - title: Sample 5
-      url: /p1_sample5.html
-      output: web, pdf
+        folderitems:
+          - title: ARTIC tiled-amplicon
+            url: /protocol_amplicon.html
+            output: web, pdf
 
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
+          - title: Metagenomics
+            url: /protocol_metagenomics.html
+            output: web, pdf
 
-    - title: Sample 7
-      url: /p1_sample7.html
-      output: web, pdf
-
-# Copyright 2021 Google LLC
+# Copyright 2025 ARTIC network

@@ -1,10 +1,10 @@
 ---
-title: Sample 3 Topic (Product 1)
-keywords: sample
-summary: "This is just a sample topic..."
-sidebar: product1_sidebar
-permalink: p1_sample3.html
-folder: product1
+title: MPXV (mpox virus) sequencing
+keywords: resources
+summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
+sidebar: resources_sidebar
+permalink: mpxv.html
+folder: resources
 ---
 
 ## Sample Content

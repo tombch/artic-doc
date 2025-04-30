@@ -4,40 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27426080-d1d1-4458-9d1a-1334954f6aa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/sidebars/artic_sidebar.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/p1_sample7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/resources/resources.html" afterDir="false" />
+    <list default="true" id="27426080-d1d1-4458-9d1a-1334954f6aa6" name="Changes" comment="Adding initial theme">
+      <change afterPath="$PROJECT_DIR$/pages/resources/2020-01-01-ebov.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/2020-01-22-ncov-2019.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/2022-11-18-training.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/2024-08-20-mpxv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-bioinformatics-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-it-setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-phylogenetics-sop-ituri.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-phylogenetics-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-seq-kit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-seq-sop-fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-seq-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ebov/ebov-validation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-bioinformatics-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-epi2me-setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-illumina-bioinformatics-epi2me-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-it-setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-multiplex-pcr-protocol-2500.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-multiplex-pcr-protocol-400.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-ont-bioinformatics-epi2me-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-phylogenetics-epi2me-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/mpxv-sequencing-guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/mpxv/resources_mpxv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ncov/ncov-amplicon-v3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ncov/ncov2019-bioinformatics-beta-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ncov/ncov2019-bioinformatics-sop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ncov/ncov2019-it-setup.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/ncov/ncov2019-using-rampart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/resources/resources_sars-cov-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/404.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ARTICdoc.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ARTICdoc.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/sidebars/home_sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sidebars/home_sidebar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/sidebars/mydoc_sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sidebars/mydoc_sidebar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/sidebars/product1_sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sidebars/resources_sidebar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/sidebars/product2_sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sidebars/documentation_sidebar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/topnav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/topnav.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample1.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample10.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample11.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample12.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample13.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample13.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample14.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample2.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample3.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample4.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample5.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample6.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample7.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample8.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product2/p2_sample9.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documentation/p2_sample9.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/sidebars/resources_sidebar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sidebars/resources_sidebar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default_print.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default_print.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/none.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/none.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample2.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources/resources_mpxv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample3.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources/resources_viruses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample5.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resources/resources_ebov.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resources/p1_sample7.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,30 +69,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/rambaut/Repositories/artic-doc/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/_data/sidebars" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,25 +96,9 @@
       <updated>1740411518109</updated>
       <workItem from="1740411519224" duration="2117000" />
       <workItem from="1745667072768" duration="374000" />
-      <workItem from="1745667476222" duration="6342000" />
+      <workItem from="1745667476222" duration="836000" />
+      <workItem from="1746024563918" duration="5548000" />
     </task>
-    <task id="LOCAL-00001" summary="Adding initial theme files">
-      <option name="closed" value="true" />
-      <created>1745674559319</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1745674559319</updated>
-    </task>
-    <task id="LOCAL-00002" summary="deleting pdfs">
-      <option name="closed" value="true" />
-      <created>1745674651595</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1745674651595</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,8 +106,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding initial theme" />
-    <MESSAGE value="Adding initial theme files" />
-    <MESSAGE value="deleting pdfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleting pdfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding initial theme" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
