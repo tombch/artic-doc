@@ -1,12 +1,12 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: artic-network/artic-doc
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: ARTIC network
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: ARTIC network - pathogen genomics for sample to response
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ARTIC network
@@ -29,11 +29,14 @@ port: 4000
 
 exclude:
   - .idea/
+  - ARTICdoc.iml
+  - ARTICdoc.ipr
+  - ARTICdoc.iws
   - .gitignore
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: ARTIC network website
 
 feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
@@ -71,7 +74,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -91,7 +94,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -100,21 +103,14 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
+- artic_sidebar
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
+- resources_sidebar
+- documentation_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "ARTIC network is a project funded by the Wellcome Trust to develope systems, protocols and bioinformatics for end-to-end pathogen genomics."
 # the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
 
 github: [metadata]
 
-
-# Copyright 2021 Google LLC

@@ -1,9 +1,9 @@
 ---
-title: MPXV (mpox virus) sequencing
+title: Virus sequencing
 keywords: resources
 summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
 sidebar: resources_sidebar
-permalink: mpxv.html
+permalink: viruses.html
 folder: resources
 ---
 

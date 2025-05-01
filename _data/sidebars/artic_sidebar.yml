@@ -28,19 +28,15 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: Resources
+      url: /resources.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Viruses
+      url: /resourses_viruses.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
-      output: web, pdf
-
-    - title: Support
+    - title: Documentation
       url: /mydoc_support.html
       output: web, pdf
 
@@ -48,15 +44,43 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
+    - title: Viruses
+      url: /resourses_viruses.html
       output: web, pdf
 
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
+    - title: Primal Scheme
+      url: /primal_scheme.html
       output: web, pdf
 
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
+  - title: Resources by virus
+    output: web, pdf
+    folderitems:
+
+    - title: Viruses
+      url: /resources.html
+      output: web
+
+    - title: MPXV | mpox
+      url: /mpxv.html
       output: web, pdf
 
+    - title: SARS-CoV-2 | COVID-19
+      url: /resources/sars-cov-2.html
+      output: web, pdf
+
+    - title: EBOV | Ebola virus
+      url: /ebov.html
+      output: web, pdf
+
+
+  - title: Protocols
+    output: web, pdf
+
+    folderitems:
+    - title: ARTIC tiled-amplicon
+      url: /protocol_amplicon.html
+      output: web, pdf
+
+    - title: Metagenomics
+      url: /protocol_metagenomics.html
+      output: web, pdf

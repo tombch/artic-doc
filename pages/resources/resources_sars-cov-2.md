@@ -7,10 +7,10 @@ permalink: sars-cov-2.html
 folder: resources
 ---
 
-[//]: # ({% include artic_sticker.html %})
+{% include artic_sticker.html %}
 
 ## Updates
-
+                                        
 <ul>
  <li>24-Mar-2020: We have posted <a href="/resources/ncov/ncov-amplicon-v3.pdf">an update to the amplicon set (V3)</a></li>
 </ul>
@@ -31,7 +31,7 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
 
 ## Resources and documents
 
-{% assign docs = site.resources | where_exp:"item", "item.category contains 'ncov'" | sort: 'title' %}
+[//]: # ({\% assign docs = site.resources | where_exp:"item", "item.category contains 'ncov'" | sort: 'title' \%})
 <ul>
     <li>nCoV-2019 sequencing protocol (protocols.io)</li>
         <blockquote>link: <a href="https://dx.doi.org/10.17504/protocols.io.bbmuik6w">Protocols.io</a></blockquote>
@@ -39,10 +39,13 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
     <li>nCoV-2019 PrimalSeq sequencing primers</li>
         <blockquote>link: <a href="https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019/V3">Github (version 3)</a></blockquote>
 
-{% for doc in docs %}
-<li>{{ doc.title_text }}</li>
-<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
-{% endfor %}
+[//]: # ({\% for doc in docs \%})
+
+[//]: # (<li>{{ doc.title_text }}</li>)
+
+[//]: # (<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>)
+
+[//]: # ({\% endfor \%})
 
    <li>A quick guide to tiling amplicon sequencing and bioinformatics</li>
        <blockquote>link: <a href="/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>
@@ -61,6 +64,6 @@ These resources were only possible because of the genome sequence ([accession MN
 
 We would also like to acknowledge all the labs that shared genome sequences through the GISAID plaform. Although these data were not used directly, they confirm the genome sequence and demonstrate a current lack of diversity allowing a more sensitive sequencing protocol.
 
-[//]: # ({% include wellcome-trust.html %})
+{% include wellcome-trust.html %}
 
 {% include links.html %}

@@ -1,9 +1,9 @@
 ---
-title: MPXV (mpox virus) sequencing
+title: EBOV (Ebola virus) sequencing
 keywords: resources
 summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
 sidebar: resources_sidebar
-permalink: mpxv.html
+permalink: ebov.html
 folder: resources
 ---
 

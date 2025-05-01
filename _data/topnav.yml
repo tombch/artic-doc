@@ -3,10 +3,14 @@
 topnav:
 - title: Topnav
   items:
-#    - title: GitHub
-#      external_url: https://github.com/tomjoht/documentation-theme-jekyll
     - title: News
       url: /news
+    - title: GitHub
+      external_url: https://github.com/artic-network
+    - title: Primal Scheme
+      external_url: https://labs.primalscheme.com
+    - title: Virological
+      external_url: https://virological.org
 
 #Topnav dropdowns
 topnav_dropdowns:
