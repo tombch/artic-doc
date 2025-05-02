@@ -33,10 +33,16 @@ body {
     color: var(--main-colour);
 }
 
+.text-primary {
+    color: var(--text-colour);
+}
+
 h1 {color: var(--main-colour); }
 h2 {color: var(--lighter-colour); }
 h3 {color: var(--contrast-colour); }
-h4 {color: var(--grey-colour); }
+h4 {color: var(--main-colour); }
+
+a {color: var(--lighter-colour); }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: var(--main-colour);
@@ -105,6 +111,23 @@ a.navbar-brand:hover {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: var(--lighter-colour);
 }
+
+.panel-default > .panel-heading {
+    background-color: var(--main-colour);
+    color: var(--text-colour);
+    border-color: var(--main-colour);
+}
+
+.fa-inverse {
+    color: var(--lighter-colour);
+}
+
+.panel-body {
+    background-color: var(--text-colour);
+    color: var(--main-colour);
+    border-color: var(--main-colour);
+}
+
 
 .btn-primary:hover,
 .btn-primary:focus,
