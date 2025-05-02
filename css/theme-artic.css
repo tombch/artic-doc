@@ -172,3 +172,26 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
 }
+
+/* search area */
+#search-demo-container ul#results-container {
+    background-color: var(--text-colour);
+}
+
+ul#results-container a {
+    background-color: var(--text-colour);
+    color: var(--main-colour);
+}
+
+ul#results-container a:hover {
+    color: var(--lighter-colour);
+}
+
+#search-demo-container a:hover {
+    color: var(--lighter-colour);
+}
+
+#search-input {
+    background-color: var(--background-colour);
+}
+/* end search */

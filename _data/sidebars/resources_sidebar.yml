@@ -1,104 +1,108 @@
 entries:
   - title: sidebar
-    product: ARTIC
+    product: Contents
     folders:
 
       - title: Overview
-        output: web, pdf
+        output: web
         folderitems:
 
         - title: About ARTIC
           url: /index.html
-          output: web, pdf
+          output: web
           type: homepage
 
         - title: News
           url: /news.html
-          output: web, pdf
-
-      - title: Resources
-        output: web, pdf
-        folders:
-
-      - title: Resources by virus
-        output: web, pdf
-        folderitems:
-        - title: Viruses
-          url: /viruses.html
           output: web
 
-        - title: MPXV | mpox
-          url: /mpxv.html
-          output: web, pdf
-
-        - title: SARS-CoV-2 | COVID-19
-          url: /sars-cov-2.html
-          output: web, pdf
-
-        - title: EBOV | Ebola virus
-          url: /ebov.html
-          output: web, pdf
-
-
-      - title: Protocols
-        output: web, pdf
-
+      - title: Resources
+        output: web
+        url: /resources.html
         folderitems:
-          - title: ARTIC tiled-amplicon
-            url: /protocol_amplicon.html
-            output: web, pdf
 
-          - title: Metagenomics
-            url: /protocol_metagenomics.html
-            output: web, pdf
+        - title: Viruses
+          output: web
+          url: /viruses.html
+          subfolders:
+          
+          - title: Virus sequencing resources
+            output: web
+            subfolderitems:
+            - title: MPXV | mpox
+              url: /mpxv.html
+              output: web
 
+            - title: SARS-CoV-2 | COVID-19
+              url: /sars-cov-2.html
+              output: web
+
+            - title: EBOV | Ebola virus
+              url: /ebov.html
+              output: web
+
+        - title: Protocols
+          output: web
+          subfolders:
+
+          - title: Sequencing protocols
+            output: web
+            subfolderitems:
+              - title: ARTIC tiled-amplicon
+                url: /protocol_amplicon.html
+                output: web
+          
+              - title: Metagenomics
+                url: /protocol_metagenomics.html
+                output: web
+          
       - title: Documentation
-        output: web, pdf
+        output: web
         folderitems:
 
           - title: Documentation overview
             url: /documentation.html
-            output: web, pdf
+            output: web
 
           - title: Tutorials
             url: /documentation/tutorials.html
-            output: web, pdf
+            output: web
 
           - title: Guides
             url: /documentation/guides.html
-            output: web, pdf
+            output: web
 
       - title: Projects
-        output: web, pdf
+        output: web
         folderitems:
 
           - title: Projects overview
             url: /projects/projects.html
-            output: web, pdf
+            output: web
 
           - title: ARTIC-1
             url: /projects/artic1.html
-            output: web, pdf
+            output: web
 
           - title: ARTIC-2
             url: /projects/artic1.html
-            output: web, pdf
+            output: web
 
 
       - title: People
-        output: web, pdf
+        output: web
         folderitems:
 
           - title: People overview
             url: /people.html
-            output: web, pdf
+            output: web
 
           - title: ARTIC Network
             url: /people/artic-network.html
-            output: web, pdf
+            output: web
 
           - title: Collaborators
             url: /people/collaborators.html
-            output: web, pdf
+            output: web
 
 

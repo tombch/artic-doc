@@ -1,10 +1,11 @@
 ---
-title: MPXV (mpox virus) sequencing
+title: Metagenomic sequencing
 keywords: resources
-summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
+summary: "Resources and protocols for metagenomic sequencing"
 sidebar: resources_sidebar
-permalink: mpxv.html
-folder: resources/
+permalink: metagenomics.html
+folder: protocols
+tags: [resources, protocols]
 ---
 
 ## MPXV Sequencing

@@ -22,11 +22,11 @@ entries:
     folderitems:
 
     - title: Resources overview
-      url: /resourses.html
+      url: /resources.html
       output: web, pdf
 
     - title: Viruses
-      url: /resources/viruses.html
+      url: resources/viruses.html
       output: web, pdf
 
     - title: Protocols

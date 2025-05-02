@@ -1,9 +1,9 @@
 ---
-title: "Mobile Pages"
+title: "Viruses pages"
+tagName: viruses
 search: exclude
-tagName: mobile
-permalink: tag_mobile.html
-sidebar: mydoc_sidebar
+permalink: tag_viruses.html
+sidebar: artic_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

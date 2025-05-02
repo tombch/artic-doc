@@ -4,7 +4,8 @@ keywords: resources
 summary: "A collection of Nanopore sequencing resources for SARS-CoV-2 coronavirus"
 sidebar: resources_sidebar
 permalink: sars-cov-2.html
-folder: resources/
+folder: viruses
+tags: [resources, viruses]
 ---
 
 {% include artic_sticker.html %}

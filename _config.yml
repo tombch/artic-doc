@@ -6,7 +6,7 @@ output: web
 topnav_title: ARTIC network
 # this appears on the top navigation bar next to the home button
 
-site_title: ARTIC network - pathogen genomics for sample to response
+site_title: ARTIC network - pathogen genomics from sample to response
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ARTIC network
