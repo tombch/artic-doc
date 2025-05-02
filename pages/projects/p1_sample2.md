@@ -1,10 +1,10 @@
 ---
-title: Virus sequencing
-keywords: resources
-summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
-sidebar: resources_sidebar
-permalink: viruses.html
-folder: resources/
+title: Sample 2 Topic (Product 1)
+keywords: sample
+summary: "This is just a sample topic..."
+sidebar: product1_sidebar
+permalink: p1_sample2.html
+folder: product1
 ---
 
 ## Sample Content

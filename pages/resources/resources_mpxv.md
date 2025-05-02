@@ -4,7 +4,7 @@ keywords: resources
 summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
 sidebar: resources_sidebar
 permalink: mpxv.html
-folder: resources
+folder: resources/
 ---
 
 ## MPXV Sequencing

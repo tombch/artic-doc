@@ -1,43 +1,43 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
-
 entries:
-  - title: Sidebar
-    product: ARTIC Resources
-    #version: 1.0
+  - title: sidebar
+    product: ARTIC
     folders:
 
-      - title:
-        output: pdf
-        type: frontmatter
+      - title: Overview
+        output: web, pdf
         folderitems:
-          - title:
-            url: /titlepage.html
-            output: pdf
-            type: frontmatter
-          - title:
-            url: /tocpage.html
-            output: pdf
-            type: frontmatter
+
+        - title: About ARTIC
+          url: /index.html
+          output: web, pdf
+          type: homepage
+
+        - title: News
+          url: /news.html
+          output: web, pdf
+
+      - title: Resources
+        output: web, pdf
+        folders:
 
       - title: Resources by virus
         output: web, pdf
         folderitems:
-          - title: Viruses
-            url: /resources.html
-            output: web
+        - title: Viruses
+          url: /viruses.html
+          output: web
 
-          - title: MPXV | mpox
-            url: /mpxv.html
-            output: web, pdf
+        - title: MPXV | mpox
+          url: /mpxv.html
+          output: web, pdf
 
-          - title: SARS-CoV-2 | COVID-19
-            url: /resources/sars-cov-2.html
-            output: web, pdf
+        - title: SARS-CoV-2 | COVID-19
+          url: /sars-cov-2.html
+          output: web, pdf
 
-          - title: EBOV | Ebola virus
-            url: /ebov.html
-            output: web, pdf
+        - title: EBOV | Ebola virus
+          url: /ebov.html
+          output: web, pdf
 
 
       - title: Protocols
@@ -52,4 +52,53 @@ entries:
             url: /protocol_metagenomics.html
             output: web, pdf
 
-# Copyright 2025 ARTIC network
+      - title: Documentation
+        output: web, pdf
+        folderitems:
+
+          - title: Documentation overview
+            url: /documentation.html
+            output: web, pdf
+
+          - title: Tutorials
+            url: /documentation/tutorials.html
+            output: web, pdf
+
+          - title: Guides
+            url: /documentation/guides.html
+            output: web, pdf
+
+      - title: Projects
+        output: web, pdf
+        folderitems:
+
+          - title: Projects overview
+            url: /projects/projects.html
+            output: web, pdf
+
+          - title: ARTIC-1
+            url: /projects/artic1.html
+            output: web, pdf
+
+          - title: ARTIC-2
+            url: /projects/artic1.html
+            output: web, pdf
+
+
+      - title: People
+        output: web, pdf
+        folderitems:
+
+          - title: People overview
+            url: /people.html
+            output: web, pdf
+
+          - title: ARTIC Network
+            url: /people/artic-network.html
+            output: web, pdf
+
+          - title: Collaborators
+            url: /people/collaborators.html
+            output: web, pdf
+
+

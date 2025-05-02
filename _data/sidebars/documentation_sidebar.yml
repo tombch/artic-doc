@@ -1,94 +1,88 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
-- title: Documentation
-  product: Documentation
-#  version: 1.0
-  folders:
+  - title: sidebar
+    product: ARTIC
+    #version: 6.0
+    folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+      - title: Overview
+        output: web, pdf
+        folderitems:
 
-  - title: Introduction
-    output: web, pdf
-    folderitems:
+          - title: About ARTIC
+            url: /index.html
+            output: web, pdf
+            type: homepage
 
-    - title: Overview
-      url: /documentation.html
-      output: web
+          - title: News
+            url: /news.html
+            output: web, pdf
 
-  - title: Simple Workflow
-    output: web, pdf
-    folderitems:
+      - title: Resources
+        output: web, pdf
+        folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
-      output: web, pdf
+          - title: Resources overview
+            url: /resourses.html
+            output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
-      output: web, pdf
+          - title: Viruses
+            url: /resources/viruses.html
+            output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
-      output: web, pdf
+          - title: Protocols
+            url: /resources/protocols.html
+            output: web, pdf
 
-    - title: Sample 4
-      url: /p2_sample4.html
-      output: web, pdf
+          - title: Software
+            url: /resources/software.html
+            output: web, pdf
 
-    - title: Sample 5
-      url: /p2_sample5.html
-      output: web, pdf
+      - title: Documentation
+        output: web, pdf
+        folderitems:
 
-  - title: Complex Workflow
-    output: web, pdf
-    folderitems:
+          - title: Documentation overview
+            url: /documentation.html
+            output: web, pdf
 
-    - title: Sample 6
-      url: /p2_sample6.html
-      output: web, pdf
+          - title: Tutorials
+            url: /documentation/tutorials.html
+            output: web, pdf
 
-    - title: Sample 7
-      url: /p2_sample7.html
-      output: web, pdf
+          - title: Guides
+            url: /documentation/guides.html
+            output: web, pdf
 
-    - title: Sample 8
-      url: /p2_sample8.html
-      output: web, pdf
+      - title: Projects
+        output: web, pdf
+        folderitems:
 
-    - title: Sample 9
-      url: /p2_sample9.html
-      output: web, pdf
+          - title: Projects overview
+            url: /projects/projects.html
+            output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
-      output: web, pdf
+          - title: ARTIC-1
+            url: /projects/artic1.html
+            output: web, pdf
 
-    - title: Sample 11
-      url: /p2_sample11.html
-      output: web, pdf
+          - title: ARTIC-2
+            url: /projects/artic1.html
+            output: web, pdf
 
-    - title: Sample 12
-      url: /p2_sample12.html
-      output: web, pdf
 
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
+      - title: People
+        output: web, pdf
+        folderitems:
 
-    - title: Sample 14
-      url: /p2_sample14.html
-      output: web, pdf
+          - title: People overview
+            url: /people.html
+            output: web, pdf
 
-# Copyright 2021 Google LLC
+          - title: ARTIC Network
+            url: /people/artic-network.html
+            output: web, pdf
+
+          - title: Collaborators
+            url: /people/collaborators.html
+            output: web, pdf
+
