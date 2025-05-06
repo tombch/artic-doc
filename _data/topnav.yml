@@ -5,27 +5,13 @@ topnav:
   items:
     - title: News
       url: /news
-    - title: GitHub
-      external_url: https://github.com/artic-network
-    - title: Primal Scheme
-      external_url: https://labs.primalscheme.com
-    - title: Virological
-      external_url: https://virological.org
+    - title: FAQ
+      url: /faq
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-#    - title: Jekyll Help
-#      folderitems:
-#        - title: Jekyll Talk
-#          external_url: https://talk.jekyllrb.com
-#        - title: Jekyll documentation
-#          external_url: http://jekyllrb.com/docs/home/
-#        - title: Jekyll on Stack Overflow
-#          external_url: http://stackoverflow.com/questions/tagged/jekyll
-#        - title: Jekyll on my blog
-#          external_url: http://idratherbewriting.com/category-jekyll/
     - title: Sections
       folderitems:
         - title: Introduction
@@ -34,5 +20,16 @@ topnav_dropdowns:
           url: /resources.html
         - title: Documentation
           url: /documentation.html
+        - title: Projects
+          url: /projects.html
+        - title: People
+          url: /people.html
+    - title: Links
+      folderitems:
+        - title: GitHub
+          external_url: https://github.com/artic-network
+        - title: Primal Scheme
+          external_url: https://labs.primalscheme.com
+        - title: Virological
+          external_url: https://virological.org
 
-# Copyright 2021 Google LLC

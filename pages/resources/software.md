@@ -1,9 +1,9 @@
 ---
-title: Virus sequencing
-keywords: resources
-summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
-sidebar: resources_sidebar
-permalink: viruses.html
+title: Software resources
+keywords: resources software
+summary: "Software"
+sidebar: artic_sidebar
+permalink: software.html
 folder: resources/
 ---
 
@@ -17,10 +17,10 @@ Current viruses.
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Viruses</h2>
+        <h2 class="page-header">Software</h2>
     </div>
     {% for page in site.html_pages %}
-    {% if page.folder == "viruses" %}
+    {% if page.folder == "software" %}
     <div class="col-md-4">
         <div class="media">
             <div class="pull-left">
@@ -31,7 +31,7 @@ Current viruses.
             </div>
             <div class="media-body">
                 <h4 class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.title }}</a></h4>
-                <p>{% if virus.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+                <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</p>
             </div>
         </div>
     </div>

@@ -25,7 +25,7 @@ entries:
           output: web
           url: /viruses.html
           subfolders:
-          
+
           - title: Virus sequencing resources
             output: web
             subfolderitems:

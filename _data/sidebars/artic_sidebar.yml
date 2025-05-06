@@ -26,15 +26,15 @@ entries:
       output: web, pdf
 
     - title: Viruses
-      url: resources/viruses.html
+      url: /viruses.html
       output: web, pdf
 
     - title: Protocols
-      url: /resources/protocols.html
+      url: /protocols.html
       output: web, pdf
 
     - title: Software
-      url: /resources/software.html
+      url: /software.html
       output: web, pdf
 
   - title: Documentation
@@ -42,15 +42,15 @@ entries:
     folderitems:
 
     - title: Documentation overview
-      url: /documentation.html
+      url: documentation.html
       output: web, pdf
 
     - title: Tutorials
-      url: /documentation/tutorials.html
+      url: tutorials.html
       output: web, pdf
 
     - title: Guides
-      url: /documentation/guides.html
+      url: guides.html
       output: web, pdf
 
   - title: Projects
@@ -58,15 +58,15 @@ entries:
     folderitems:
 
       - title: Projects overview
-        url: /projects/projects.html
+        url: projects.html
         output: web, pdf
 
       - title: ARTIC-1
-        url: /projects/artic1.html
+        url: artic1.html
         output: web, pdf
 
       - title: ARTIC-2
-        url: /projects/artic1.html
+        url: artic1.html
         output: web, pdf
 
 
