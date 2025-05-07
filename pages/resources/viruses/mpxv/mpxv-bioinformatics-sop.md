@@ -4,8 +4,8 @@ keywords: protocol
 layout: document
 last_updated: Aug 20 2024
 tags: [protocol]
-permalink: /mpxv/mpxv-bioinformatics-sop.html
-folder: ncov[mpxv-epi2me-setup.md](mpxv-epi2me-setup.md)
+permalink: mpxv-bioinformatics-sop.html
+folder: mpxv
 title_text: "MPXV Nanopore sequencing bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "ARTIC-MPXV-bioinformaticsSOP"

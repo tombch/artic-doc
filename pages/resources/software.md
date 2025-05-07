@@ -3,8 +3,8 @@ title: Software resources
 keywords: resources software
 summary: "Software"
 sidebar: resources_sidebar
-permalink: software.html
-folder: resources/
+permalink: software
+folder: resources
 ---
 
 ## Virus sequencing

@@ -3,8 +3,8 @@ title: Sequencing protocols
 keywords: resources
 summary: "Protocols for pathogen sequencing"
 sidebar: resources_sidebar
-permalink: protocols.html
-folder: resources/
+permalink: protocols
+folder: resources
 ---
 
 ## Protocols

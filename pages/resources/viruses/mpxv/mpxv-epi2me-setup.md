@@ -5,8 +5,8 @@ layout: document
 last_updated: 2024-08-22
 tags: [protocol]
 summary:
-permalink: /mpxv-ont-epi2me-sop.html
-#folder: mpxv
+permalink: mpxv-ont-epi2me-sop.html
+folder: mpxv
 title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
 subtitle_text: "ARTIC pipelines | bioinformatics"
 document_name: "ARTIC-MPXV-EPI2ME-Setup"
@@ -109,6 +109,3 @@ Medaka runs within the pipeline to call variants between the reads provided and 
 
 **We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
 
-{% include wellcome-trust.html %}
-
-<div class="pagebreak"> </div>

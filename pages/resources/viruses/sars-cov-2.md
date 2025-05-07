@@ -32,7 +32,7 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
 
 ## Resources and documents
 
-[//]: # ({\% assign docs = site.resources | where_exp:"item", "item.category contains 'ncov'" | sort: 'title' \%})
+{% assign docs = site.html_pages | where_exp:"item", "item.category contains 'sars-cov-2'" | sort: 'title' %}
 <ul>
     <li>nCoV-2019 sequencing protocol (protocols.io)</li>
         <blockquote>link: <a href="https://dx.doi.org/10.17504/protocols.io.bbmuik6w">Protocols.io</a></blockquote>
@@ -40,13 +40,10 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
     <li>nCoV-2019 PrimalSeq sequencing primers</li>
         <blockquote>link: <a href="https://github.com/artic-network/artic-ncov2019/tree/master/primer_schemes/nCoV-2019/V3">Github (version 3)</a></blockquote>
 
-[//]: # ({\% for doc in docs \%})
-
-[//]: # (<li>{{ doc.title_text }}</li>)
-
-[//]: # (<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>)
-
-[//]: # ({\% endfor \%})
+{% for doc in docs %}
+<li>{{ doc.title_text }}</li>
+<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+{% endfor %}
 
    <li>A quick guide to tiling amplicon sequencing and bioinformatics</li>
        <blockquote>link: <a href="/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>

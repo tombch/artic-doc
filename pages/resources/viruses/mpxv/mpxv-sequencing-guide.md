@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Aug 23, 2024
 tags: [protocol] 
-permalink: /mpxv/artic-mpxv-guide.html
+permalink: artic-mpxv-guide.html
 folder: mpxv
 title_text: "Mpox virus sequencing"
 subtitle_text: "A guide to sequencing for genomic epidemiology"
