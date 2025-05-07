@@ -5,8 +5,8 @@ layout: document
 last_updated: 2024-08-22
 tags: [protocol]
 summary:
-permalink: /mpxv/mpxv-ont-epi2me-sop.html
-folder: mpxv
+permalink: /mpxv-ont-epi2me-sop.html
+#folder: mpxv
 title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
 subtitle_text: "ARTIC pipelines | bioinformatics"
 document_name: "ARTIC-MPXV-EPI2ME-Setup"
@@ -54,15 +54,15 @@ The first time you run EPI2ME it may need to install some additional software. I
 
 Open EPI2ME. On the main dashboard select “View workflows”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_1.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_1.png">
   
 Then select “Import workflow”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_2.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_2.png">
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” ([https://github.com/artic-network/artic-mpxv-nf](https://github.com/BioWilko/artic-mpxv-nf)):
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_3.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_3.png">
  
 Once it has downloaded, it will be ready in the Available Workflows tab. Select it and you will be taken to a landing page for this workflow.
 
@@ -70,23 +70,25 @@ Once it has downloaded, it will be ready in the Available Workflows tab. Select 
 
 From the workflow landing page, click “Run this workflow”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_4b.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_4b.png">
 
 Then select “Run on your computer” and click “Continue”.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_5.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_5.png">
 
 It will then ask you to select your fastq folders. Select the ones you want and continue.  
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_6.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_6.png">
 
 Go to the Primer Scheme Selection tab and **make sure that the primer scheme matches the one you used**. If your scheme is not listed, you can use the “Custom scheme” section to provide the full path to the directory containing your appropriately named scheme bed and fasta files; \<SCHEME\_NAME\>.bed and \<SCHEME\_NAME\>.fasta.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_7.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_7.png">
 
 Finally click “Launch workflow”. It will then start running. The runtime will depend on the size of your files and the speed of your computer, but 10-30 minutes is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_8.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_8a.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_8b.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_8c.png">
 
 When it has finished you will have a collection of outputs for both consensus and individual barcodes.
 
@@ -96,14 +98,14 @@ When it has finished you will have a collection of outputs for both consensus an
 
 If you need to use a previous or a development version of the pipeline, this can be selected from the workflow landing page.
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_9a.png">
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_9b.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_9a.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_9b.png">
 
 ### **Changing the basecaller**
 
 Medaka runs within the pipeline to call variants between the reads provided and the reference. It will try to auto-select. If it is unable to auto-select (for example if your data was basecalled with a version of MinKNOW which is no longer supported) you may need to choose an option from this drop down list of available models in “Advance Options” (scroll down).
 
-<img width="500" src="/assets/images/mpxv/ont-sop/screenshot_10.png">
+<img width="500" src="/images/mpxv/ont-sop/screenshot_10.png">
 
 **We recommend you use a supported version of MinKNOW**. As a work around, you should select an option from this list of models which matches the flowcell chemistry and sequencing speed.
 

@@ -22,19 +22,19 @@ entries:
         folderitems:
 
           - title: Resources overview
-            url: /resourses.html
+            url: /resourses
             output: web, pdf
 
           - title: Viruses
-            url: /resources/viruses.html
+            url: /viruses
             output: web, pdf
 
           - title: Protocols
-            url: /resources/protocols.html
+            url: /protocols
             output: web, pdf
 
           - title: Software
-            url: /resources/software.html
+            url: /software
             output: web, pdf
 
       - title: Documentation
@@ -42,15 +42,15 @@ entries:
         folderitems:
 
           - title: Documentation overview
-            url: /documentation.html
+            url: /documentation
             output: web, pdf
 
           - title: Tutorials
-            url: /documentation/tutorials.html
+            url: /tutorials
             output: web, pdf
 
           - title: Guides
-            url: /documentation/guides.html
+            url: /guides
             output: web, pdf
 
       - title: Projects
@@ -58,7 +58,7 @@ entries:
         folderitems:
 
           - title: Projects overview
-            url: /projects/projects.html
+            url: /projects
             output: web, pdf
 
           - title: ARTIC-1
@@ -75,7 +75,7 @@ entries:
         folderitems:
 
           - title: People overview
-            url: /people.html
+            url: /people
             output: web, pdf
 
           - title: ARTIC Network

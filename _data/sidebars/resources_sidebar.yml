@@ -18,36 +18,40 @@ entries:
 
       - title: Resources
         output: web
-        url: /resources.html
+        url: /resources
         folderitems:
 
-        - title: Viruses
+        - title: Resources overview
           output: web
-          url: /viruses.html
+          url: /resources
           subfolders:
 
           - title: Virus sequencing resources
             output: web
+            url: /viruses
             subfolderitems:
+
             - title: MPXV | mpox
-              url: /mpxv.html
+              url: /mpxv
               output: web
 
             - title: SARS-CoV-2 | COVID-19
-              url: /sars-cov-2.html
+              url: /sars-cov-2
               output: web
 
             - title: EBOV | Ebola virus
-              url: /ebov.html
+              url: /ebov
               output: web
 
-        - title: Protocols
-          output: web
-          subfolders:
+#       - title: Protocols
+#         output: web
+#         url: /protocols
+#         subfolders:
 
           - title: Sequencing protocols
             output: web
             subfolderitems:
+
               - title: ARTIC tiled-amplicon
                 url: /protocol_amplicon.html
                 output: web

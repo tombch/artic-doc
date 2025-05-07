@@ -19,15 +19,8 @@ show_tile: false
 category: mpxv-guide
 ---
 
-{% include callout.html
-type='default'
-content='**Overview:** .'
-%}
-
-<br />
-
 This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv]()
+: [http://artic.network/mpxv](/mpxv)
 
 **Why do sequencing of Mpox?**
 

@@ -4,8 +4,8 @@ keywords: protocol
 layout: document
 last_updated: Aug 20 2024
 tags: [protocol] 
-permalink: # /mpxv/mpxv-it-setup.html
-folder: mpxv
+permalink: /mpxv/mpxv-it-setup.html
+folder: mpxv[mpxv-epi2me-setup.md](mpxv-epi2me-setup.md)
 title_text: "MPXV bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "ARTIC-MPXV-ITSetup"

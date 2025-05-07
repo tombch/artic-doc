@@ -3,7 +3,7 @@ title: SARS-CoV-2 (COVID-19) sequencing
 keywords: resources
 summary: "A collection of Nanopore sequencing resources for SARS-CoV-2 coronavirus"
 sidebar: resources_sidebar
-permalink: sars-cov-2.html
+permalink: sars-cov-2
 folder: viruses
 tags: [resources, viruses]
 ---

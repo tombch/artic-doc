@@ -2,9 +2,9 @@
 title: MPXV (mpox virus) sequencing
 keywords: resources
 summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
-image: images/mpxv.png
+image: /images/mpxv.png
 sidebar: resources_sidebar
-permalink: mpxv.html
+permalink: mpxv
 folder: viruses
 tags: [resources, viruses]
 ---

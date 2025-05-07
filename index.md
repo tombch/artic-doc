@@ -15,7 +15,7 @@ toc: false
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <a href="resources.html">
+                <a href="/resources">
                     <span class="fa-stack fa-5x">
                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                           <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
@@ -25,14 +25,14 @@ toc: false
             <div class="panel-body">
                 <h4>Resources</h4>
                 <p>Resources, protocols, software and data.</p>
-                <a href="resources.html" class="btn btn-primary">Learn More</a>
+                <a href="/resources" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <a href="documentation.html">
+                <a href="/documentation">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-car fa-stack-1x fa-inverse"></i>
@@ -49,7 +49,7 @@ toc: false
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <a href="projects.html">
+                <a href="/projects">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-support fa-stack-1x fa-inverse"></i>
@@ -66,7 +66,7 @@ toc: false
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <a href="people.html">
+                <a href="/people">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
                       <i class="fa fa-database fa-stack-1x fa-inverse"></i>

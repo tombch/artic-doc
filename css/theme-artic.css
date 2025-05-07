@@ -6,23 +6,24 @@
     --h3-font-size: 14pt;
 
     /* ARTIC 1 */
-    /*--main-colour: #005C68; !* var(--main-colour) better: 3f4f54 *!*/
-    /*--text-colour: #F6EECA;*/
-    /*--background-colour: #fffef7;*/
-    /*--darker-colour: #02292e;*/
-    /*--lighter-colour: #21968b;*/
-    /*--contrast-colour: #F1605D; !* more saturated: #b02921 *!*/
-    /*--definition-colour: #7f8f9d;*/
-    /*--grey-colour: #707070;*/
-
-    --main-colour: #017280; /* var(--main-colour) better: 3f4f54 */
+    --main-colour: #005C68; /* var(--main-colour) better: 3f4f54 */
     --text-colour: #F6EECA;
     --background-colour: #fffef7;
-    --darker-colour: #033940;
-    --lighter-colour: #19A699;
-    --contrast-colour: #BF4B43; /* more saturated: #b02921 */
+    --darker-colour: #02292e;
+    --lighter-colour: #21968b;
+    --contrast-colour: #F1605D; /* more saturated: #b02921 */
     --definition-colour: #7f8f9d;
     --grey-colour: #707070;
+
+    /* Brighter colour scheme */
+    /*--main-colour: #017280; !* var(--main-colour) better: 3f4f54 *!*/
+    /*--text-colour: #F6EECA;*/
+    /*--background-colour: #fffef7;*/
+    /*--darker-colour: #033940;*/
+    /*--lighter-colour: #19A699;*/
+    /*--contrast-colour: #BF4B43; !* more saturated: #b02921 *!*/
+    /*--definition-colour: #7f8f9d;*/
+    /*--grey-colour: #707070;*/
 }
 
 .summary {
