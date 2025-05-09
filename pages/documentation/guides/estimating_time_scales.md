@@ -16,7 +16,7 @@ forked_from:
 author: Andrew Rambaut
 nav_menu: false
 show_tile: false
-category: tutorial
+category: guide
 ---
 
 Phylogenetic trees usually have branch lengths in units of genetic change either as a count of the number of nucleotide differences or an estimate of the average number of changes per site in the genome. The latter estimates accommodate the fact that some of the genome may be missing in the sequence but the two are very similar when the number of mutations are small.

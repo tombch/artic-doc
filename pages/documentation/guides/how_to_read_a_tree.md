@@ -16,7 +16,7 @@ forked_from:
 author: Andrew Rambaut
 nav_menu: false
 show_tile: false
-category: tutorial
+category: guide
 ---
 
 <div id="tooltip" display="none" style="position: absolute; display: none;"></div>
