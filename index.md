@@ -42,7 +42,7 @@ toc: false
             <div class="panel-body">
                 <h4>Documentation</h4>
                 <p style="min-height: 75px">Tutorials, instruction manuals and teaching materials.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="/documentation" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@ toc: false
             <div class="panel-body">
                 <h4>Projects</h4>
                 <p style="min-height: 75px">On going and previous projects and collaborations.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="/projects" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@ toc: false
             <div class="panel-body">
                 <h4>People</h4>
                 <p style="min-height: 75px">Network members and collaborators.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="/people" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
