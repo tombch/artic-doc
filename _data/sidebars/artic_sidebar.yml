@@ -9,12 +9,12 @@ entries:
     folderitems:
 
     - title: About ARTIC
-      url: about.html
+      url: /about.html
       output: web, pdf
       type: homepage
 
     - title: News
-      url: news.html
+      url: /news.html
       output: web, pdf
 
   - title: Resources
@@ -22,19 +22,19 @@ entries:
     folderitems:
 
     - title: Resources overview
-      url: resources.html
+      url: /resources.html
       output: web, pdf
 
     - title: Viruses
-      url: viruses
+      url: /viruses
       output: web, pdf
 
     - title: Protocols
-      url: protocols
+      url: /protocols
       output: web, pdf
 
     - title: Software
-      url: software
+      url: /software
       output: web, pdf
 
   - title: Documentation
@@ -42,19 +42,19 @@ entries:
     folderitems:
 
     - title: Documentation overview
-      url: documentation
+      url: /documentation
       output: web, pdf
 
     - title: Tutorials
-      url: tutorials
+      url: /tutorials
       output: web, pdf
 
     - title: Guides
-      url: guides
+      url: /guides
       output: web, pdf
 
     - title: FAQ
-      url: faq
+      url: /faq
       output: web, pdf
 
   - title: Projects
@@ -62,15 +62,15 @@ entries:
     folderitems:
 
       - title: Projects overview
-        url: projects
+        url: /projects
         output: web, pdf
 
       - title: ARTIC-1
-        url: projects/artic1.html
+        url: /projects/artic1.html
         output: web, pdf
 
       - title: ARTIC-2
-        url: projects/artic2.html
+        url: /projects/artic2.html
         output: web, pdf
 
 
@@ -79,14 +79,14 @@ entries:
     folderitems:
 
       - title: People overview
-        url: people
+        url: /people
         output: web, pdf
 
       - title: ARTIC Network
-        url: people/artic-network.html
+        url: /people/artic-network.html
         output: web, pdf
 
       - title: Collaborators
-        url: people/collaborators.html
+        url: /people/collaborators.html
         output: web, pdf
 
