@@ -3,7 +3,7 @@ title: ARTIC-1
 keywords: artic
 summary: "ARTIC 1..."
 sidebar: artic_sidebar
-permalink: /projects/artic1.html
+permalink: /projects/artic1
 folder: projects
 ---
 

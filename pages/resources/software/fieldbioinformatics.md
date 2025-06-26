@@ -3,7 +3,7 @@ title: Fieldbioinformatics
 keywords: resources
 summary: "Fieldbioinformatics software"
 sidebar: resources_sidebar
-permalink: fieldbioinformatics.html
+permalink: fieldbioinformatics
 folder: software
 tags: [resources, software]
 ---

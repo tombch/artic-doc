@@ -3,7 +3,7 @@ title: RAMPART
 keywords: resources
 summary: "Rampart software"
 sidebar: resources_sidebar
-permalink: rampart.html
+permalink: rampart
 folder: software
 tags: [resources, software]
 ---

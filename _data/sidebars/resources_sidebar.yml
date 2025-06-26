@@ -69,11 +69,11 @@ entries:
             output: web
 
           - title: Tutorials
-            url: documentation/tutorials.html
+            url: documentation/tutorials.md
             output: web
 
           - title: Guides
-            url: documentation/guides.html
+            url: documentation/guides.md
             output: web
 
       - title: Projects

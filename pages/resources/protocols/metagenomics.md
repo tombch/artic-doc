@@ -3,7 +3,7 @@ title: Metagenomic sequencing
 keywords: resources
 summary: "Resources and protocols for metagenomic sequencing"
 sidebar: resources_sidebar
-permalink: metagenomics.html
+permalink: metagenomics
 folder: protocols
 tags: [resources, protocols]
 ---
