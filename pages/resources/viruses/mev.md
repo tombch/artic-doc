@@ -1,5 +1,6 @@
 ---
-title: MeV<br>(Measles virus)
+title: MeV (Measles virus)
+tname: MeV<br>(Measles virus)
 keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 image: images/mev.png
@@ -9,7 +10,7 @@ folder: viruses
 tags: [resources, viruses]
 ---
 
-> A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
+> A collection of resources for whole genome sequencing and analysis of Measles virus (EBOV)
 
 ## Resources and documents
 

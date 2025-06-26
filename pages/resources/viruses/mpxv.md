@@ -1,5 +1,6 @@
 ---
-title: MPXV <br>(mpox virus)
+tname: MPXV<br>(mpox virus)
+title: MPXV (mpox virus)
 keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of MPXV
 image: /images/mpxv.png

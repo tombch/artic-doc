@@ -23,7 +23,7 @@ tags: [resources]
                     </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.title }}</a></h4>
+                <h4 class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.tname }}</a></h4>
                 <p>{{ page.summary | strip_html | strip_newlines | truncate: 160 }}</p>
             </div>
         </div>
@@ -80,3 +80,5 @@ tags: [resources]
     {% endfor %}
 </div>
 
+
+{% include links.html %}
