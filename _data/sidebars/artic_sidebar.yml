@@ -9,7 +9,7 @@ entries:
     folderitems:
 
     - title: About ARTIC
-      url: index.html
+      url: about.html
       output: web, pdf
       type: homepage
 

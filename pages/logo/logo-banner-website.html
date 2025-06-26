@@ -1,27 +1,28 @@
 ---
 title: ARTIC logo
 toc: false
-permalink: logo.html
+sidebar: false
+permalink: tmp.html
 ---
 <html>
 	<head>
 	<!-- Any CSS added here (internally or externally) can target the shapes in the SVG -->
 		<style type="text/css" >
 		
-		body { background-color: #000033 }
+		body { background-color: var(--main-colour) }
 		
-		.logo-compass-line { fill: none; stroke: white; stroke-width:0.5 }
-		.logo-globe-line { fill: none; stroke: white; stroke-width:0.5 }
-		.logo-epi-line { fill: none; stroke: white; stroke-width:5 }
-		.logo-epi-circle { fill: #000033; stroke: white; stroke-width:5 }
-		.logo-central-circle { fill: #000033; stroke: white; stroke-width:5 }
-		.logo-virus { fill: white; stroke: none }
+		.logo-compass-line { fill: none; stroke: var(--text-colour); stroke-width:0.5 }
+		.logo-globe-line { fill: none; stroke: var(--text-colour); stroke-width:0.5 }
+		.logo-epi-line { fill: none; stroke: var(--text-colour); stroke-width:5 }
+		.logo-epi-circle { fill: var(--contrast-colour); stroke: var(--text-colour); stroke-width:5 }
+		.logo-central-circle { fill: var(--contrast-colour); stroke: var(--text-colour); stroke-width:5 }
+		.logo-virus { fill: var(--text-colour); stroke: none }
 		
 s		</style>
 
 	</head>
 	<body>
-		<svg id="logo" width="3000px" height="2000px" viewbox="2000 2000 2000 1000">
+		<svg id="logo" width="1000px" height="1000px" viewbox="2000 2000 2000 2000">
 			<g class="logo-compass-1" >
 				<animateTransform
 					attributeName="transform"

@@ -18,13 +18,13 @@ toc: false
                 <a href="/resources">
                     <span class="fa-stack fa-5x">
                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                          <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
                     </span>
                 </a>
             </div>
             <div class="panel-body">
                 <h4>Resources</h4>
-                <p>Resources, protocols, software and data.</p>
+                <p style="min-height: 75px">Resources, protocols, software and data.</p>
                 <a href="/resources" class="btn btn-primary">Learn More</a>
             </div>
         </div>
@@ -35,13 +35,13 @@ toc: false
                 <a href="/documentation">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                      <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                 </span>
                 </a>
             </div>
             <div class="panel-body">
                 <h4>Documentation</h4>
-                <p>Tutorials, instruction manuals and teaching materials.</p>
+                <p style="min-height: 75px">Tutorials, instruction manuals and teaching materials.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
@@ -52,13 +52,13 @@ toc: false
                 <a href="/projects">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                      <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
                 </span>
                 </a>
             </div>
             <div class="panel-body">
                 <h4>Projects</h4>
-                <p>On going and previous projects and collaborations.</p>
+                <p style="min-height: 75px">On going and previous projects and collaborations.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
@@ -69,13 +69,13 @@ toc: false
                 <a href="/people">
                 <span class="fa-stack fa-5x">
                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                      <i class="fa fa-id-badge fa-stack-1x fa-inverse"></i>
                 </span>
                 </a>
             </div>
             <div class="panel-body">
                 <h4>People</h4>
-                <p>Network members and collaborators.</p>
+                <p style="min-height: 75px">Network members and collaborators.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
