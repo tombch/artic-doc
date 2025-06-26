@@ -5,7 +5,7 @@ keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
 sidebar: artic_sidebar
 image: /images/sc2.png
-permalink: sars-cov-2
+permalink: /viruses/sars-cov-2
 folder: viruses
 tags: [resources, viruses]
 ---

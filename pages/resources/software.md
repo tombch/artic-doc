@@ -2,7 +2,7 @@
 title: Software resources
 keywords: resources software
 summary: "Software"
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: software
 folder: resources
 ---

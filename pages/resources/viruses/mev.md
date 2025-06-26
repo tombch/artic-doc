@@ -5,7 +5,7 @@ keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 image: images/mev.png
 sidebar: artic_sidebar
-permalink: mev
+permalink: /viruses/mev
 folder: viruses
 tags: [resources, viruses]
 ---

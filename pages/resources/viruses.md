@@ -2,7 +2,7 @@
 title: Virus sequencing
 keywords: resources_sidebar
 summary: "Resources, primers, protocols and pipelines for sequencing mpox virus (MPXV)"
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: viruses
 folder: resources
 ---

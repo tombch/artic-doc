@@ -5,7 +5,7 @@ keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
 image: images/ebov.png
 sidebar: artic_sidebar
-permalink: ebov
+permalink: /viruses/ebov
 folder: viruses
 tags: [resources, viruses]
 ---

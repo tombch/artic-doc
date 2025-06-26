@@ -3,7 +3,7 @@ title: Tiled amplicon sequencing
 keywords: resources
 summary: "Resources and protocols for tiled amplicon sequencing"
 sidebar: resources_sidebar
-permalink: amplicon
+permalink: /protocols/amplicon
 folder: protocols
 tags: [resources, protocols]
 ---

@@ -5,7 +5,7 @@ keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of MPXV
 image: /images/mpxv.png
 sidebar: resources_sidebar
-permalink: mpxv
+permalink: /viruses/mpxv
 folder: viruses
 tags: [resources, viruses]
 ---
