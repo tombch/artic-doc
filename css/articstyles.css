@@ -1,3 +1,15 @@
+:root {
+    /* ARTIC 1 */
+    --main-colour: #005C68; /* var(--main-colour) better: 3f4f54 */
+    --text-colour: #F6EECA;
+    --background-colour: #fffef7;
+    --darker-colour: #02292e;
+    --lighter-colour: #21968b;
+    --contrast-colour: #F1605D; /* more saturated: #b02921 */
+    --definition-colour: #7f8f9d;
+    --grey-colour: #707070;
+}
+
 body {
     font-size:15px;
 }
@@ -148,7 +160,7 @@ table > thead > tr > th {
     border-bottom: 2px solid #ddd;
     text-transform: none;
     background-color: #777;
-    color: white;
+    color: var(--background-colour);
     text-align: left;
 }
 table > caption + thead > tr:first-child > th,
@@ -199,7 +211,7 @@ p.post-meta {font-size: 80%; color: #777;}
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
-    background-color: white;
+    background-color: var(--background-colour);
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
@@ -601,8 +613,8 @@ h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
-    color: white;
+    background-color: var(--lighter-colour);
+    color: var(--background-colour);
 }
 
 ol li ol li {list-style-type: lower-alpha;}
@@ -1004,7 +1016,7 @@ span.label.label-default {
 span.label.label-primary {
     background-color: #f0ad4e;
 }
-.col-lg-12 .nav li a {background-color: white}
+.col-lg-12 .nav li a {background-color: whitesmoke}
 
 
 .nav li.active > a.subfoldersTitle {

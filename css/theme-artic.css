@@ -68,6 +68,7 @@ span.projectTitle {
 
 .nav > li.active > a {
     background-color: var(--main-colour);
+    color: var(--text-colour);
 }
 
 .nav > li > a:hover {
