@@ -1,20 +1,23 @@
 ---
-title: SARS-CoV-2 (COVID-19) sequencing
+tname: SARS-CoV-2<br>(COVID-19)
+title: SARS-CoV-2 (COVID-19)
 keywords: resources
-summary: "A collection of Nanopore sequencing resources for SARS-CoV-2 coronavirus"
-sidebar: resources_sidebar
+summary: A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
+sidebar: artic_sidebar
+image: /images/sc2.png
 permalink: sars-cov-2
 folder: viruses
 tags: [resources, viruses]
 ---
 
-{% include artic_sticker.html %}
+>A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
 
-## Updates
-                                        
-<ul>
- <li>24-Mar-2020: We have posted <a href="/resources/ncov/ncov-amplicon-v3.pdf">an update to the amplicon set (V3)</a></li>
-</ul>
+## Resoures and documents
+
+
+
+> 24-Mar-2020: We have posted ["/resources/ncov/ncov-amplicon-v3.pdf"](an update) to the amplicon set (V3)
+
 
 ## Introduction
 

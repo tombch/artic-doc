@@ -1,16 +1,16 @@
 ---
-tname: EBOV<br>(Ebola virus)
-title: EBOV (Ebola virus)
+title: MeV (Measles virus)
+tname: MeV<br>(Measles virus)
 keywords: resources
-summary: A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
-image: images/ebov.png
+summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
+image: images/mev.png
 sidebar: artic_sidebar
-permalink: ebov
+permalink: mev
 folder: viruses
 tags: [resources, viruses]
 ---
 
-> A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
+> A collection of resources for whole genome sequencing and analysis of Measles virus (EBOV)
 
 ## Resources and documents
 
