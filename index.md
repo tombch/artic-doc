@@ -100,7 +100,6 @@ toc: false
             
     <br />
     <p><a href="news.html">See more ARTIC News</a>. </p>
-
 </div>
 
 {% include links.html %}

@@ -3,7 +3,7 @@
         <div style="display: table-row">
             <div style="width: 1%; display: table-cell; text-align: right">
                 <a href="figtree">
-                    <img src="/images/icons/figtree-icon.png" style="max-height: 64px; margin: 0px 10px 0px 10px;" />
+                    <img src="/images/software/figtree-icon.png" style="max-height: 64px; margin: 0px 10px 0px 10px;" />
                 </a>
             </div>
             <div style="width: 70%; display: table-cell; vertical-align: middle;">

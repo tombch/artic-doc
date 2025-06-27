@@ -1,5 +1,6 @@
 :root {
     --body-font-size: 12pt;
+    --note-font-size: 10pt;
     --site-title-font-size: 72pt;
     --h1-font-size: 20pt;
     --h2-font-size: 18pt;
@@ -42,6 +43,10 @@ body {
 
     background-color: var(--background-colour);
     color: var(--main-colour);
+}
+
+.note-text {
+    font-size: var(--note-font-size);
 }
 
 .text-primary {
