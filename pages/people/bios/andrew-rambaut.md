@@ -2,6 +2,7 @@
 title: Andrew Rambaut
 institution: University of Edinburgh
 biography: Andrew Rambaut is the Professor of Molecular Evolution at the University of Edinburgh. Based in the Institute of Ecology and Evolution he has worked for nearly 30 years on understanding origin and evolution of human and animal viruses.
+project: artic2
 role: investigator
 column: 3
 image: andrew-rambaut.png

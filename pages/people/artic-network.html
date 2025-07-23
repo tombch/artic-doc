@@ -90,11 +90,11 @@ folder: people
 
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Investigators</h2>
+            <h2 class="page-header">ARTIC-2</h2>
         </div>
         <div class="col-md-4">
             {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.role == "investigator" and page.column == 1  %}
+            {% if page.folder == "bios" and page.project == "artic2" and page.column == 1  %}
                 <div class="media">
                     <div class="pull-left">
                     <span class="fa-stack fa-2x">
@@ -112,7 +112,7 @@ folder: people
         </div>
         <div class="col-md-4">
             {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.role == "investigator" and page.column == 2 %}
+            {% if page.folder == "bios" and page.project == "artic2" and page.column == 2 %}
             <div class="media">
                 <div class="pull-left">
                     <span class="fa-stack fa-2x">
@@ -130,7 +130,7 @@ folder: people
         </div>
         <div class="col-md-4">
             {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.role == "investigator" and page.column == 3  %}
+            {% if page.folder == "bios" and page.project == "artic2" and page.column == 3  %}
             <div class="media">
                 <div class="pull-left">
                     <span class="fa-stack fa-2x">
