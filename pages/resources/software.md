@@ -13,7 +13,7 @@ folder: resources
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "software" %}
-    <div class="col-md-4">
+    <div class="col-md-6">
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
@@ -24,7 +24,7 @@ folder: resources
                     </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.title }}</a></h4>
+                <h4 class="media-heading"><a class="post-link" href="{{ page.url }}">{{ page.title }}</a></h4>
                 <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</p>
             </div>
         </div>
