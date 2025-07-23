@@ -21,7 +21,7 @@ Current viruses.
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "software" %}
-    <div class="col-md-4">
+    <div class="col-md-6">
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
