@@ -6,6 +6,8 @@ summary: A collection of resources for whole genome sequencing and analysis of E
 image: /images/viruses/ebov_cdc.png
 sidebar: artic_sidebar
 permalink: /viruses/ebov
+icon: /images/viruses/ebov_icon.svg
+
 folder: viruses
 tags: [resources, viruses]
 ---

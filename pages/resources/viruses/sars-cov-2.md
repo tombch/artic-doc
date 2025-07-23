@@ -6,6 +6,7 @@ summary: A collection of resources for whole genome sequencing and analysis of S
 sidebar: artic_sidebar
 image: /images/viruses/cov.png
 permalink: /viruses/sars-cov-2
+icon: /images/viruses/sars-cov-2_icon.svg
 folder: viruses
 tags: [resources, viruses]
 ---
