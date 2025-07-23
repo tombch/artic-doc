@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Jan 23, 2020
 tags: [protocol] 
-permalink: sars-cov-2-using-rampart.html
+permalink: /viruses/sars-cov-2/sars-cov-2-using-rampart.html
 folder: sars-cov-2
 title_text: "SARS-CoV-2 coronavirus RAMPART runtime instructions"
 subtitle_text: "Nanopore | bioinformatics"
@@ -42,7 +42,7 @@ nCoV-2019 Nanopore bioinformatics environment setup:
 
 ## Preparation
 
-Set up the computing environment as described here in this document: [ARTIC-nCoV-ITSetup](ncov2019-it-setup.html). This this will install `RAMPART` as part of the `conda` environment.
+Set up the computing environment as described here in this document: [ARTIC-SARS-CoV-2-ITSetup](sars-cov-2-it-setup.html). This this will install `RAMPART` as part of the `conda` environment.
 
 ## Activate the ARTIC environment:
 
@@ -64,7 +64,7 @@ The current stable release is `v1.0.3`.
 
 Our recommended procedure for a new sequencing run is to create a directory for that run. We suggest using the same name as the Experiment name you provide in MinKNOW:
 
-{% include image.html file='/assets/images/ncov-2019/minknow_1.png' max-width='450px' %}
+{% include image.html file='ncov-2019/minknow_1.png' max-width='450px' %}
 
 The experiment name will be referred to here as `<run_name>`.
 
@@ -75,7 +75,7 @@ cd nCoV-2019_Run_1
 
 By default MinKNOW writes 4000 reads to each FASTQ file it creates. If you want finer scale monitoring in RAMPART we suggest altering the settings to write 1000 reads per FASTQ file.  
 
-{% include image.html file='/assets/images/ncov-2019/minknow_2.png' max-width='450px' %}
+{% include image.html file='ncov-2019/minknow_2.png' max-width='450px' %}
 
 > **IMPORTANT** -- At the moment RAMPART is not compatible with MinKNOW's built-in barcode de-multiplexing. This must be turned off.
 

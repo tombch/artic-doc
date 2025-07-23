@@ -5,7 +5,7 @@ layout: document
 last_updated: Sept 25, 2019
 tags: [protocol]
 summary:
-permalink: ebov-seq-sop.html
+permalink: /viruses/ebov/ebov-seq-sop.html
 folder: ebov
 title_text: "Ebola virus sequencing protocol"
 subtitle_text: "Nanopore | amplicon | native barcoding"
@@ -37,7 +37,7 @@ Ebola primer scheme:
 : [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V3)
 
 Ebola virus Nanopore sequencing protocol:
-: [http://artic.network/ebov/ebov-seq-sop.html](http://artic.network/ebov/ebov-seq-sop.html)
+: [http://artic.network/viruses/ebov/ebov-seq-sop.html](http://artic.network/viruses/ebov/ebov-seq-sop.html)
 
 Ebola virus Nanopore sequencing kit-list:
 : [http://artic.network/ebov/ebov-seq-kit.html](http://artic.network/ebov/ebov-seq-kit.html)

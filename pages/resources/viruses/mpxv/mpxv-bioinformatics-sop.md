@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Aug 20 2024
 tags: [protocol]
-permalink: mpxv-bioinformatics-sop.html
+permalink: /viruses/mpxv/mpxv-bioinformatics-sop.html
 folder: mpxv
 title_text: "MPXV Nanopore sequencing bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
@@ -21,7 +21,7 @@ category: mpxv-cli
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](artic-mpxv-guide.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
 '
 %}
 

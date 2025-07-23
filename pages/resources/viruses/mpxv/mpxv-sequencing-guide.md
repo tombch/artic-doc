@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Aug 23, 2024
 tags: [protocol] 
-permalink: artic-mpxv-guide.html
+permalink: /viruses/mpxv/artic-mpxv-guide.html
 folder: mpxv
 title_text: "Mpox virus sequencing"
 subtitle_text: "A guide to sequencing for genomic epidemiology"
@@ -20,7 +20,7 @@ category: mpxv-guide
 ---
 
 This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](/mpxv)
+: [http://artic.network/mpxv](/viruses/mpxv)
 
 **Why do sequencing of Mpox?**
 

@@ -5,7 +5,7 @@ layout: document
 last_updated: 2024-08-22
 tags: [protocol]
 summary:
-permalink: mpxv-ont-epi2me-sop.html
+permalink: /viruses/mpxv/mpxv-ont-epi2me-sop.html
 folder: mpxv
 title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
 subtitle_text: "ARTIC pipelines | bioinformatics"

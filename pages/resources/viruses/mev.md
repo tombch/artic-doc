@@ -10,11 +10,11 @@ folder: viruses
 tags: [resources, viruses]
 ---
 
-> A collection of resources for whole genome sequencing and analysis of Measles virus (EBOV)
+> A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 
 ## Resources and documents
 
-{% assign docs = site.html_pages | where_exp:"item", "item.category contains 'ebov'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.category contains 'mev'" | sort: 'title' %}
 <ul>
 {% for doc in docs %}
     <li>{{ doc.title_text }}</li>
