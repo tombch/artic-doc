@@ -4,6 +4,7 @@ keywords: resources
 summary: "Rampart software"
 sidebar: resources_sidebar
 permalink: /software/rampart
+icon: /images/software/rampart-icon.png
 folder: software
 tags: [resources, software]
 ---
