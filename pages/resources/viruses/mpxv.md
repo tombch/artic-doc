@@ -6,6 +6,8 @@ summary: A collection of resources for whole genome sequencing and analysis of M
 image: /images/viruses/mpxv.png
 sidebar: resources_sidebar
 permalink: /viruses/mpxv
+icon: /images/viruses/mpxv_icon.svg
+
 folder: viruses
 tags: [resources, viruses]
 ---
