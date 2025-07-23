@@ -21,7 +21,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Resources overview
+    - title: Overview
       url: /resources
       output: web, pdf
 
@@ -41,7 +41,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Documentation overview
+    - title: Overview
       url: /documentation
       output: web, pdf
 
@@ -61,7 +61,7 @@ entries:
     output: web, pdf
     folderitems:
 
-      - title: Projects overview
+      - title: Overview
         url: /projects
         output: web, pdf
 
@@ -78,7 +78,7 @@ entries:
     output: web, pdf
     folderitems:
 
-      - title: People overview
+      - title: Overview
         url: /people
         output: web, pdf
 
