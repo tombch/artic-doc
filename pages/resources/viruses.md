@@ -26,12 +26,12 @@ Current viruses.
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.url | remove: "/" }}">
+                        <a class="post-link" href="{{ page.url }}">
                         <img src="{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/></a>
                     </span>
             </div>
             <div class="media-body note-text">
-                <div class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.title }}</a></div>
+                <div class="media-heading"><a class="post-link" href="{{ page.url }}">{{ page.title }}</a></div>
                 <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</p>
             </div>
         </div>
