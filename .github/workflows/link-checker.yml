@@ -40,23 +40,12 @@ jobs:
           
       - name: Check for broken links
         run: |
-          # Install htmlproofer
-          gem install html-proofer
+          # Install linkchecker
+          sudo apt-get update
+          sudo apt-get install -y linkchecker
           
-          # Run link checker on the built site
-          # --disable-external: Only check internal links
-          # --allow-hash-href: Allow anchor links
-          # --enforce-https: Ensure HTTPS links where applicable
-          # --no-enforce-https: But don't fail on HTTP links for now
-          # --ignore-urls: Ignore certain patterns that might be problematic
-          htmlproofer ./_site \
-            --disable-external \
-            --allow-hash-href \
-            --no-enforce-https \
-            --ignore-urls "/^#/,/^javascript:/,/^mailto:/" \
-            --ignore-files "/assets/,/css/,/js/" \
-            --checks Links,Images \
-            --log-level :info
+          # Run link checker on the local server
+          linkchecker --no-warnings http://127.0.0.1:4000
             
       - name: Stop Jekyll server
         if: always()
