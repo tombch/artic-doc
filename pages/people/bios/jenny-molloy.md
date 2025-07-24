@@ -4,7 +4,7 @@ institution: University of Cambridge
 biography:
 project: artic2
 role: investigator
-image: placeholder.png
+image: jenny-molloy.png
 link: 
 folder: bios
 ---
