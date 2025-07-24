@@ -1,5 +1,5 @@
 ---
-title: MPXV Nanopore sequencing bioinformatics protocol | amplicon
+title: MEV Nanopore sequencing bioinformatics protocol | amplicon
 keywords: protocol
 layout: document
 last_updated: Aug 20 2024
