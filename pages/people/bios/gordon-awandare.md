@@ -5,7 +5,7 @@ biography: Gordon Awandare is the Pro Vice-Chancellor responsible for Academic a
 project: artic2
 role: investigator
 column: 2
-image: gordon-awandare.png
+image: placeholder.png
 link: 
 folder: bios
 ---
