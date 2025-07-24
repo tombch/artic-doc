@@ -78,9 +78,9 @@ entries:
     output: web, pdf
     folderitems:
 
-      - title: Overview
-        url: /people
-        output: web, pdf
+#      - title: Overview
+#        url: /people
+#        output: web, pdf
 
       - title: ARTIC Network
         url: /people/artic-network
