@@ -31,7 +31,7 @@ To undertake this tutorial, you will need to download a number of software packa
 
 
 <div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> All the files needed for this tutorial
-<a href="{{ root_url }}files/all_input_files.zip"> can be downloaded from here</a>. 
+<a href="{{ files_url }}all_input_files.zip"> can be downloaded from here</a>. 
 If you download this zipped folder, there is no need to download other files/folders linked further in the tutorial.
 </div>
 
@@ -77,7 +77,7 @@ Questions<br>
 
 ### Characterising and contextualising the initial cases
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.seq_run_1.fasta</samp>' and <a href="{{ root_url }}files/outbreak.seq_run_1.fasta">can be downloaded from here</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.seq_run_1.fasta</samp>' and <a href="{{ files_url }}outbreak.seq_run_1.fasta">can be downloaded from here</a>.</div>
 
 {% include question.html content='How many sequences are in the `outbreak.seq_run_1.fasta` file?' %}
 
@@ -111,7 +111,7 @@ For the purposes of this exercise, we have already prepared all the complete rec
 For example:<br>
 `>MH523641|NiV|India|human|2018-05-21`'
  %}
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.seq_run_1.NiV_background.fasta</samp>' and <a href="{{ root_url }}files/outbreak.seq_run_1.NiV_background.fasta.zip">can be downloaded from here</a>. It will need to be decompressed before use.<br>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.seq_run_1.NiV_background.fasta</samp>' and <a href="{{ files_url }}outbreak.seq_run_1.NiV_background.fasta.zip">can be downloaded from here</a>. It will need to be decompressed before use.<br>
 This file has both the initial case sequences and the background dataset combined into one file. If actually creating this dataset, you would need to combine these files yourself (either copy & paste, or through the command line).</div>
 
 However, ordinarily you can download the dataset by clicking the Download button indicated below:
@@ -214,7 +214,7 @@ When ready, click `Generate BEAST File...`.
 
 Run BEAST with your newly generated XML (detailed instructions on how to run BEAST can be found in the [First tutorial](https://beast.community/first_tutorial)). 
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> You can also access the precomputed BEAST output for this XML at <a href="{{ root_url }}files/outbreak.seq_run_1.beast_out.zip">this link</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> You can also access the precomputed BEAST output for this XML at <a href="{{ files_url }}outbreak.seq_run_1.beast_out.zip">this link</a>.</div>
 
 Open `Tracer` and load the newly generated log file to assess the BEAST run (the [Rates and dates tutorial](https://beast.community/rates_and_dates) also includes some useful tips about importing into `Tracer` and interpreting the plots.). 
 
@@ -251,7 +251,7 @@ Questions:<br>
 {% include sitrep.html content='As of 12th July 2024, 60 human cases of Nipah have been reported. In additional to new cases, retrospective investigation has revealed a number of cases that had not previously been attributed to specific infectious agent. Liasing with the National Animal Health Agency has revealed a concurrent outbreak in NiV in livestock pigs. Of the cases in humans and pigs, a subset have been sent for targeted sequencing, however the results are not yet out. 
 ' %}
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data from the second sequencing run can be downloaded at <a href="{{ root_url }}files/outbreak.seq_run2.fasta.zip">this link</a>. The file will need to be decompressed.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data from the second sequencing run can be downloaded at <a href="{{ files_url }}outbreak.seq_run_2.fasta.zip">this link</a>. The file will need to be decompressed.</div>
 
 Download the provided FASTA alignment file and decompress. This FASTA file contains NiV genome sequences from both the initial sequencing run and a second sequencing run that contained both human and pig NiV samples. We will attempt to answer whether the human and animal outbreaks are linked and what is the source of these cases.
 
@@ -311,7 +311,7 @@ Questions:<br>
 2. What is the estimated tMRCA? Look at the 95 HPD, has the confidence in the estimate improved with additional data?<br>
 '%}
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> You can also access the precomputed BEAST output for this XML at <a href="{{ root_url }}files/outbreak.seq_run_2.beast_out.zip">this link</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> You can also access the precomputed BEAST output for this XML at <a href="{{ files_url }}outbreak.seq_run_2.beast_out.zip">this link</a>.</div>
 
 
 Combine the logged trees into a MCC tree using `TreeAnnotator`, check if the default burn in of 1,000,000 states is sufficient in `Tracer`. Vizualise the MCC tree in FigTree. Set the time scale on the X axis and toggle on the Node bars showing height 95 HPD.
