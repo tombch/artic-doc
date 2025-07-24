@@ -6,20 +6,20 @@ last_updated: {}
 tags:
   - protocol
 summary: null
-permalink: /viruses/mpxv/mpxv-ont-epi2me-sop.html
-folder: mpxv
-title_text: Running the ARTIC MPXV analysis pipelines using EPI2ME
+permalink: /viruses/mev/mev-ont-epi2me-sop.html
+folder: mev
+title_text: Running the ARTIC MEV analysis pipelines using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
-document_name: ARTIC-MPXV-EPI2ME-Setup
+document_name: ARTIC-MEV-EPI2ME-Setup
 version: v1.0
 creation_date: {}
 revision_date: null
 forked_from: null
-author: Lauren Lansdowne
+author: Elli Mylona
 citation: null
 nav_menu: false
 show_tile: false
-category: mpxv-setup
+category: mev-setup
 ---
 
 **Overview:** 

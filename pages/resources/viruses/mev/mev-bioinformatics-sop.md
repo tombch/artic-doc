@@ -5,24 +5,24 @@ layout: document
 last_updated: Aug 20 2024
 tags:
   - protocol
-permalink: /viruses/mpxv/mpxv-bioinformatics-sop.html
-folder: mpxv
-title_text: MPXV Nanopore sequencing bioinformatics protocol
+permalink: /viruses/mev/mev-bioinformatics-sop.html
+folder: mev
+title_text: MEV Nanopore sequencing bioinformatics protocol
 subtitle_text: Nanopore | bioinformatics
-document_name: ARTIC-MPXV-bioinformaticsSOP
+document_name: ARTIC-MEV-bioinformaticsSOP
 version: v1.0.0
 creation_date: {}
 forked_from: null
-author: Sam Wilkinson
+author: Rachel Colquhoun
 citation: Loman *et al.* In Prep.
 nav_menu: false
 show_tile: false
-category: mpxv-cli
+category: mev-cli
 ---
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/mev/mev-seq-sop.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/mev/mev-sequencing-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
 '
 %}
 
