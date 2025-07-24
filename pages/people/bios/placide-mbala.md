@@ -5,7 +5,7 @@ biography:
 project: artic2
 role: investigator
 column: 1
-image: placeholder.png 
+image: placide-mbala.png 
 link: 
 folder: bios
 ---
