@@ -2,7 +2,7 @@
 title: Documentation, tutorials and teaching materials
 keywords: training
 sidebar: artic_sidebar
-toc: true
+toc: false
 permalink: /training/tutorials
 folder: training
 ---
@@ -12,8 +12,7 @@ folder: training
 {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'tutorial'" | sort: 'title' %}
 <ul>
     {% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-    <blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+    <li><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></li>
     {% endfor %}
 </ul>
 
