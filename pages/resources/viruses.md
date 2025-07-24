@@ -23,7 +23,7 @@ folder: resources
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
                         <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.link }}">
+                        <a class="post-link" href="{{ page.url }}">
                         <img  src="{{ page.icon }}" alt="{{ page.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
                     </span>
                     </span>
