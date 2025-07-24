@@ -8,13 +8,9 @@ permalink: viruses
 folder: resources
 ---
 
-## Current virus resources
-
-
-
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Viruses</h2>
+        <h2 class="page-header">Current virus resources</h2>
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "viruses" %}
