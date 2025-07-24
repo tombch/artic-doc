@@ -50,7 +50,7 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
 {% endfor %}
 
    <li>A quick guide to tiling amplicon sequencing and bioinformatics</li>
-       <blockquote>link: <a href="/documentation/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/documentation/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>
+       <blockquote>link: <a href="/training/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/training/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>
 </ul>
 
 
