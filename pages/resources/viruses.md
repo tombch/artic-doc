@@ -8,13 +8,9 @@ permalink: viruses
 folder: resources
 ---
 
-## Current virus resources
-
-
-
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Viruses</h2>
+        <h2 class="page-header">Current virus resources</h2>
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "viruses" %}
@@ -23,7 +19,7 @@ folder: resources
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
                         <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.link }}">
+                        <a class="post-link" href="{{ page.url }}">
                         <img  src="{{ page.icon }}" alt="{{ page.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
                     </span>
                     </span>
