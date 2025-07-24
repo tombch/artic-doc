@@ -5,7 +5,7 @@ biography:
 project: artic2
 role: investigator
 column: 2
-image: 
+image: placeholder.png
 link: 
 folder: bios
 ---

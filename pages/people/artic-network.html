@@ -92,59 +92,25 @@ folder: people
         <div class="col-lg-12">
             <h2 class="page-header">ARTIC-2</h2>
         </div>
-        <div class="col-md-4">
-            {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.project == "artic2" and page.column == 1  %}
-                <div class="media">
+    </div>
+    <div class="row" style="display: flex; flex-wrap: wrap;">
+        {% assign artic2_bios = site.html_pages | where: "folder", "bios" | where: "project", "artic2" | sort: "title" %}
+        {% for bio in artic2_bios %}
+            <div class="col-md-4" style="display: flex; margin-bottom: 20px;">
+                <div class="media" style="width: 100%;">
                     <div class="pull-left">
-                    <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.link }}">
-                        <img  src="/images/people/{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; ; border-radius: 25%"/></a>
-                    </span>
+                        <span class="fa-stack fa-2x">
+                            <a class="post-link" href="{{ bio.link }}">
+                                <img src="/images/people/{{ bio.image }}" alt="{{ bio.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/>
+                            </a>
+                        </span>
                     </div>
                     <div class="media-body note-text">
-                        <div class="media-heading"><a href="{{ page.link }}">{{ page.title }}</a></div>
-                        {% if page.biography %}<p> {{ page.biography }} </p>{% endif %}
+                        <div class="media-heading"><a href="{{ bio.link }}">{{ bio.title }}</a></div>
+                        {% if bio.biography %}<p>{{ bio.biography }}</p>{% endif %}
                     </div>
                 </div>
-            {% endif %}
-            {% endfor %}
-        </div>
-        <div class="col-md-4">
-            {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.project == "artic2" and page.column == 2 %}
-            <div class="media">
-                <div class="pull-left">
-                    <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.link }}">
-                        <img  src="/images/people/{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; ; border-radius: 25%"/></a>
-                    </span>
-                </div>
-                <div class="media-body note-text">
-                    <div class="media-heading"><a href="{{ page.link }}">{{ page.title }}</a></div>
-                    {% if page.biography %}<p> {{ page.biography }} </p>{% endif %}
-                </div>
             </div>
-            {% endif %}
-            {% endfor %}
-        </div>
-        <div class="col-md-4">
-            {% for page in site.html_pages %}
-            {% if page.folder == "bios" and page.project == "artic2" and page.column == 3  %}
-            <div class="media">
-                <div class="pull-left">
-                    <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.link }}">
-                        <img  src="/images/people/{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; ; border-radius: 25%"/></a>
-                    </span>
-                </div>
-                <div class="media-body note-text">
-                    <div class="media-heading"><a href="{{ page.link }}">{{ page.title }}</a></div>
-                    {% if page.biography %}<p> {{ page.biography }} </p>{% endif %}
-                </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-        </div>
+        {% endfor %}
    </div>
 </div>
