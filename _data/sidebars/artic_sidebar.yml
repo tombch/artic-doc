@@ -4,15 +4,6 @@ entries:
   version: 2.0
   folders:
 
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    - title: About ARTIC
-      url: /about
-      output: web, pdf
-      type: homepage
-
   - title: News
     url: /news
     output: web, pdf
@@ -90,3 +81,6 @@ entries:
 #        url: /people/collaborators
 #        output: web, pdf
 
+  - title: About
+    url: /about
+    output: web, pdf
