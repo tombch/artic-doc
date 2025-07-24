@@ -5,7 +5,7 @@ layout: document
 last_updated: Sept 25, 2019
 tags: [kit-list]
 summary:
-permalink: ebov-seq-kit.html
+permalink: /viruses/ebov/ebov-seq-kit.html
 folder: ebov
 title_text: "Ebola virus sequencing kit-list"
 subtitle_text: "Nanopore | amplicon | native barcoding"
@@ -35,7 +35,7 @@ Ebola primer scheme:
 : [https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2](https://github.com/artic-network/primer-schemes/tree/master/ZaireEbola/V2)
 
 Ebola virus Nanopore sequencing protocol:
-: [http://artic.network/ebov/ebov-seq-sop.html](http://artic.network/ebov/ebov-seq-sop.html)
+: [http://artic.network/viruses/ebov/ebov-seq-sop.html](http://artic.network/viruses/ebov/ebov-seq-sop.html)
 
 Ebola virus Nanopore sequencing kit-list:
 : [http://artic.network/ebov/ebov-seq-kit.html](http://artic.network/ebov/ebov-seq-kit.html)
@@ -45,7 +45,7 @@ type='default'
 file='wellcome-logo-black-small.png'
 url='http://wellcome.ac.uk'
 title='Funded by the Wellcome Trust'
-subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
+subtitle='Collaborators Award 206298/Z/17/Z --- <a href="https://artic.network">ARTIC network</a>'
 %}
 
 <div class="pagebreak"> </div>

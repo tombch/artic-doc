@@ -2,7 +2,7 @@
 title: "Resources pages"
 tagName: resources
 search: exclude
-permalink: tag_resources.html
+permalink: /tag_resources.html
 sidebar: artic_sidebar
 folder: tags
 ---

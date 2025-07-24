@@ -4,7 +4,7 @@ title: MPXV (mpox virus)
 keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of MPXV
 image: /images/viruses/mpxv.png
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: /viruses/mpxv
 icon: /images/viruses/mpxv_icon.svg
 
