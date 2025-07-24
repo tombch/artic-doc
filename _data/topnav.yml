@@ -14,8 +14,8 @@ topnav_dropdowns:
   folders:
     - title: Sections
       folderitems:
-        - title: Introduction
-          url: /artic_introduction.html
+#        - title: Introduction
+#          url: /artic_introduction.html
         - title: Resources
           url: /resources.html
         - title: Documentation

@@ -26,7 +26,7 @@ Current viruses.
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.url | remove: "/" }}">
+                        <a class="post-link" href="{{ page.url }}">
                         <img src="{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/></a>
                     </span>
             </div>

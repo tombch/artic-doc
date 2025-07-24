@@ -2,7 +2,7 @@
 title: "Viruses pages"
 tagName: viruses
 search: exclude
-permalink: tag_viruses.html
+permalink: /tag_viruses.html
 sidebar: artic_sidebar
 folder: tags
 ---

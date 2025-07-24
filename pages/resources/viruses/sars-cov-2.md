@@ -6,6 +6,7 @@ summary: A collection of resources for whole genome sequencing and analysis of S
 sidebar: artic_sidebar
 image: /images/viruses/cov.png
 permalink: /viruses/sars-cov-2
+icon: /images/viruses/sars-cov-2_icon.svg
 folder: viruses
 tags: [resources, viruses]
 ---
@@ -16,7 +17,7 @@ tags: [resources, viruses]
 
 
 
-> 24-Mar-2020: We have posted ["/resources/ncov/ncov-amplicon-v3.pdf"](an update) to the amplicon set (V3)
+> 24-Mar-2020: We have posted [an update](/resources/ncov/ncov-amplicon-v3.pdf) to the amplicon set (V3)
 
 
 ## Introduction
@@ -49,7 +50,7 @@ Please visit our <a href="https://community.artic.network">ARTIC community discu
 {% endfor %}
 
    <li>A quick guide to tiling amplicon sequencing and bioinformatics</li>
-       <blockquote>link: <a href="/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>
+       <blockquote>link: <a href="/documentation/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html">/documentation/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html</a></blockquote>
 </ul>
 
 
