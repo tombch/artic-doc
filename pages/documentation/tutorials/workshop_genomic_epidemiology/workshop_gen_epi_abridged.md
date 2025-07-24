@@ -4,7 +4,7 @@ keywords: phylodynamics, genomic epidemiology, nipah
 last_updated: February 24th 2025
 tags: [tutorial, workshop]
 summary: "This tutorial presents an outbreak scenario that starts with a small number of initial cases with no known infectious agent. We will initially identify the pathogen and perform some initial characterisation of the cases. Once the pathogen is known, we will get a curate an appropriate background set to contextualise the cases in the known diversity of the pathogen. The second timepoint brings us to later in the outbreak, with more human cases reported and a concurrent outbreak identified in pigs. The tutorial covers use of various tools for initial characterisation of a pathogen such as BLAST searching, MAFFT alignment, and maximum likelihood tree estimation using IQTREE, and assessing temporal signal with TempEst. "
-sidebar: beast_sidebar
+sidebar: artic_sidebar
 permalink: workshop_gen_epi_abridged.html
 folder: beast
 ---

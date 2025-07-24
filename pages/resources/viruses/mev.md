@@ -11,7 +11,7 @@ folder: viruses
 tags: [resources, viruses]
 ---
 
-> A collection of resources for whole genome sequencing and analysis of Measles virus (EBOV)
+> A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 
 ## Resources and documents
 

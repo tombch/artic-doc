@@ -5,7 +5,7 @@ layout: document
 last_updated: Dec 12, 2019
 tags: [protocol]
 summary:
-permalink: ebov-bioinformatics-sop.html
+permalink: /viruses/ebov/ebov-bioinformatics-sop.html
 folder: ebov
 title_text: "Ebola virus bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
@@ -23,7 +23,7 @@ category: ebov
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
 '
 %}
 
@@ -35,7 +35,7 @@ This document is part of the Ebola virus Nanopore sequencing protocol package:
 #### Related documents:
 
 Ebola virus Nanopore sequencing protocol:
-: [http://artic.network/ebov/ebov-seq-sop.html](/ebov/ebov-seq-sop.html)
+: [http://artic.network/viruses/ebov/ebov-seq-sop.html](/viruses/ebov/ebov-seq-sop.html)
 
 Setting up the laptop computing environment using Conda:
 : [http://artic.network/ebov/ebov-it-setup.html](http://artic.network/ebov/ebov-it-setup.html)

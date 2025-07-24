@@ -1,8 +1,8 @@
 ---
 title: RAMPART
 keywords: resources
-summary: "Read assignment mapping and phylogenetic analysis in real time"
-sidebar: resources_sidebar
+summary: "Rampart software"
+sidebar: artic_sidebar
 permalink: /software/rampart
 icon: /images/software/rampart-icon.png
 folder: software

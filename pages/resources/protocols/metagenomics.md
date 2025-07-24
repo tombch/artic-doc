@@ -2,7 +2,7 @@
 title: Metagenomic sequencing
 keywords: resources
 summary: "Resources and protocols for metagenomic sequencing"
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: /protocols/metagenomics
 icon: /images/protocols/metagenomics.svg
 folder: protocols

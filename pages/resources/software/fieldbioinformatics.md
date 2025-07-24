@@ -1,8 +1,8 @@
 ---
 title: Field bioinformatics
 keywords: resources
-summary: "ARTIC pipeline for consensus generation from sequencing read data"
-sidebar: resources_sidebar
+summary: "Fieldbioinformatics software"
+sidebar: artic_sidebar
 permalink: /software/fieldbioinformatics
 icon: /images/software/field-bioinformatics-icon.png
 folder: software

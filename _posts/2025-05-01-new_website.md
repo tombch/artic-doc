@@ -3,7 +3,7 @@ title:  "New ARTIC website"
 published: true
 permalink: 2025-05-01_new_website.html
 summary: "ARTIC Network has a new website."
-tags: [news, website]
+tags: [news]
 ---
 
 The ARTIC Network project has a new website that focuses more on resources, documentation and knowledge.
