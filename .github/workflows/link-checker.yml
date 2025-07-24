@@ -1,0 +1,53 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - '**'  # Run on all branches
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.1'
+          bundler-cache: true
+          
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          
+      - name: Serve Jekyll site in background
+        run: |
+          bundle exec jekyll serve --skip-initial-build --detach --port 4000
+          sleep 5  # Give server time to start
+          
+      - name: Check for broken links
+        run: |
+          # Install linkchecker
+          sudo apt-get update
+          sudo apt-get install -y linkchecker
+          
+          # Run link checker on the local server
+          linkchecker --no-warnings http://127.0.0.1:4000
+            
+      - name: Stop Jekyll server
+        if: always()
+        run: |
+          pkill -f jekyll || true
