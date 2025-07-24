@@ -105,16 +105,11 @@ defaults:
 
 sidebars:
 - artic_sidebar
-- mydoc_sidebar
-- resources_sidebar
-- documentation_sidebar
-- project_sidebar
-- people_sidebar
 
 description: "ARTIC network is a project funded by the Wellcome Trust to develop systems, protocols and bioinformatics for end-to-end pathogen genomics."
 # the description is used in the feed.xml file
 
-tutorials_root_url: /pages/documentation/tutorials
+tutorials_root_url: /pages/training/tutorials
 # the base path for tutorial assets like images and files
 
 github: [metadata]
