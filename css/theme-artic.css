@@ -240,4 +240,11 @@ a[data-toggle] {
     color: var(--text-colour);
 }
 
+#search-input {
+    border-color: var(--contrast-colour);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 /* end search */
