@@ -105,11 +105,6 @@ defaults:
 
 sidebars:
 - artic_sidebar
-- mydoc_sidebar
-- resources_sidebar
-- training_sidebar
-- project_sidebar
-- people_sidebar
 
 description: "ARTIC network is a project funded by the Wellcome Trust to develop systems, protocols and bioinformatics for end-to-end pathogen genomics."
 # the description is used in the feed.xml file
