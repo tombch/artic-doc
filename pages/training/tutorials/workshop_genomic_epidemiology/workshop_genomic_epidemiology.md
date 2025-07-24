@@ -4,13 +4,15 @@ keywords: phylodynamics, genomic epidemiology, nipah
 last_updated: July 11, 2024
 tags: [tutorial, workshop]
 summary: "This tutorial presents an outbreak scenario that starts with a small number of initial cases with no known infectious agent. We will initially identify the pathogen and perform some initial characterisation of the cases. Once the pathogen is known, we will get a curate an appropriate background set to contextualise the cases in the known diversity of the pathogen. The second timepoint brings us to later in the outbreak, with more human cases reported and a concurrent outbreak identified in pigs. The tutorial covers use of various tools for initial characterisation of a pathogen such as BLAST searching, MAFFT alignment, and maximum likelihood tree estimation using IQTREE, and assessing temporal signal with TempEst. It also includes BEAST estimation of root age and host reconstruction."
-sidebar: artic_sidebar
-permalink: workshop_genomic_epidemiology.html
+permalink: /documentation/tutorials/workshop_genomic_epidemiology.html
 folder: tutorials
 category: tutorial
+title_text: Practical genomic epidemiology
 ---
 
-{% capture root_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/{% endcapture %}
+
+{% capture files_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/files/{% endcapture %}
+
 
 
 ## Introduction
