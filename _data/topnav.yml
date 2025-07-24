@@ -18,8 +18,8 @@ topnav_dropdowns:
 #          url: /artic_introduction.html
         - title: Resources
           url: /resources.html
-        - title: Documentation
-          url: /documentation.html
+        - title: Training
+          url: /training.html
         - title: Projects
           url: /projects.html
         - title: People
