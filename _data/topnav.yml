@@ -1,35 +1,35 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
-topnav:
-- title: Topnav
-  items:
-    - title: News
-      url: /news
-    - title: FAQ
-      url: /faq
+#topnav:
+#- title: Topnav
+#  items:
+#    - title: News
+#      url: /news
+#    - title: FAQ
+#      url: /faq
 
 #Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Sections
-      folderitems:
-#        - title: Introduction
-#          url: /artic_introduction.html
-        - title: Resources
-          url: /resources.html
-        - title: Training
-          url: /training.html
-        - title: Projects
-          url: /projects.html
-        - title: People
-          url: /people.html
-    - title: Links
-      folderitems:
-        - title: GitHub
-          external_url: https://github.com/artic-network
-        - title: Primal Scheme
-          external_url: https://labs.primalscheme.com
-        - title: Virological
-          external_url: https://virological.org
+#topnav_dropdowns:
+#- title: Topnav dropdowns
+#  folders:
+#    - title: Sections
+#      folderitems:
+##        - title: Introduction
+##          url: /artic_introduction.html
+#        - title: Resources
+#          url: /resources.html
+#        - title: Documentation
+#          url: /documentation.html
+#        - title: Projects
+#          url: /projects.html
+#        - title: People
+#          url: /people.html
+#    - title: Links
+#      folderitems:
+#        - title: GitHub
+#          external_url: https://github.com/artic-network
+#        - title: Primal Scheme
+#          external_url: https://labs.primalscheme.com
+#        - title: Virological
+#          external_url: https://virological.org
 
