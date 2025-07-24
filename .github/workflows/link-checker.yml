@@ -1,0 +1,64 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - '**'  # Run on all branches
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.1'
+          bundler-cache: true
+          
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          
+      - name: Serve Jekyll site in background
+        run: |
+          bundle exec jekyll serve --skip-initial-build --detach --port 4000
+          sleep 5  # Give server time to start
+          
+      - name: Check for broken links
+        run: |
+          # Install htmlproofer
+          gem install html-proofer
+          
+          # Run link checker on the built site
+          # --disable-external: Only check internal links
+          # --allow-hash-href: Allow anchor links
+          # --enforce-https: Ensure HTTPS links where applicable
+          # --no-enforce-https: But don't fail on HTTP links for now
+          # --ignore-urls: Ignore certain patterns that might be problematic
+          htmlproofer ./_site \
+            --disable-external \
+            --allow-hash-href \
+            --no-enforce-https \
+            --ignore-urls "/^#/,/^javascript:/,/^mailto:/" \
+            --ignore-files "/assets/,/css/,/js/" \
+            --checks Links,Images \
+            --log-level :info
+            
+      - name: Stop Jekyll server
+        if: always()
+        run: |
+          pkill -f jekyll || true
