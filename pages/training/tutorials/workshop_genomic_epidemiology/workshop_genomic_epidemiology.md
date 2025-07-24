@@ -12,7 +12,7 @@ title_text: Practical genomic epidemiology
 
 
 {% capture files_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/files/{% endcapture %}
-
+{% capture root_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/images/{% endcapture %}
 
 
 ## Introduction
