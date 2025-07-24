@@ -8,6 +8,7 @@ sidebar: artic_sidebar
 permalink: /documentation/tutorials/workshop_genomic_epidemiology.html
 folder: tutorials
 category: tutorial
+title_text: Practical genomic epidemiology
 ---
 
 {% capture root_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/images/{% endcapture %}
