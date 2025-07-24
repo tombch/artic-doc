@@ -1,7 +1,7 @@
 ---
 title: ARTIC-1
 keywords: artic
-summary: "Advancing real time infection control"
+summary: "Wellcome Trust Collaborators Award 2017"
 sidebar: artic_sidebar
 toc: false
 icon: /images/artic.png
