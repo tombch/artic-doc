@@ -9,41 +9,46 @@ folder: training
 
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Training Sections</h2>
+        <h2 class="page-header">Training Guides</h2>
     </div>
-    <div class="col-md-3 col-sm-6">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading">
-                <a href="/training/guides">
-                    <span class="fa-stack fa-5x">
-                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
+    {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'guide'" | sort: 'title' %}
+    {% for doc in docs %}
+    <div class="col-md-6">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                        <a class="post-link" href="{{ doc.url }}">
+                        <img  src="{{ doc.icon }}" alt="{{ doc.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
                     </span>
-                </a>
             </div>
-            <div class="panel-body">
-                <h4>Guides</h4>
-                <p style="min-height: 75px">Resources, protocols, software and data.</p>
-                <a href="/training/guides" class="btn btn-primary">Learn More</a>
+            <div class="media-body">
+                <h4 class="media-heading"><a class="post-link" href="{{ doc.url }}">{{ doc.title_text }}</a></h4>
+                <p>{{ doc.summary | strip_html | strip_newlines | truncate: 160 }}</p>
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading">
-                <a href="/training/guides">
-                    <span class="fa-stack fa-5x">
-                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
-                    </span>
-                </a>
-            </div>
-            <div class="panel-body">
-                <h4>Tutorials</h4>
-                <p style="min-height: 75px">Resources, protocols, software and data.</p>
-                <a href="/training/tutorials" class="btn btn-primary">Learn More</a>
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 </div>
 
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Tutorials</h2>
+    </div>
+    {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'tutorial'" | sort: 'title' %}
+    {% for doc in docs %}
+    <div class="col-md-6">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                        <a class="post-link" href="{{ doc.url }}">
+                        <img  src="{{ doc.icon }}" alt="{{ doc.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
+                    </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a class="post-link" href="{{ doc.url }}">{{ doc.title_text }}</a></h4>
+                <p>{{ doc.summary | strip_html | strip_newlines | truncate: 160 }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
