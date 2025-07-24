@@ -5,7 +5,7 @@ summary: "Advancing real time infection control"
 sidebar: artic_sidebar
 toc: false
 icon: /images/artic.png
-permalink: /projects/artic1
+permalink: /projects/artic2
 folder: projects
 ---
 
