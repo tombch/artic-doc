@@ -14,11 +14,10 @@ toc: false
     </div>
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
-            <div class="panel-heading">
+            <div class="panel-heading" style="justify-content:center; display:flex; align-items:center;">
                 <a href="/resources">
-                    <span class="fa-stack fa-5x">
-                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
+                    <span class="fa-stack fa-5x" style="object-fit: contain; justify-content:center; display:flex; align-items:center;">
+                            <img  src="/images/protocols/metagenomics.svg" alt="metag" class="img-responsive" style="object-fit: contain; justify-content:center; display:flex; align-items:center; width:80%"/>
                     </span>
                 </a>
             </div>
@@ -32,17 +31,16 @@ toc: false
     <div class="col-md-3 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <a href="/documentation">
-                <span class="fa-stack fa-5x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                </span>
+                <a href="/training">
+                <span class="fa-stack fa-5x" style="object-fit: contain; justify-content:center; display:flex; align-items:center;">
+                            <img  src="/images/artic-train.png" alt="metag" class="img-responsive" style="object-fit: contain; justify-content:center; display:flex; align-items:center; width:80%"/>
+                    </span>
                 </a>
             </div>
             <div class="panel-body">
-                <h4>Documentation</h4>
+                <h4>Training</h4>
                 <p style="min-height: 75px">Tutorials, instruction manuals and teaching materials.</p>
-                <a href="/documentation" class="btn btn-primary">Learn More</a>
+                <a href="/training" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -50,10 +48,9 @@ toc: false
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <a href="/projects">
-                <span class="fa-stack fa-5x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
-                </span>
+                <span class="fa-stack fa-5x" style="object-fit: contain; justify-content:center; display:flex; align-items:center;">
+                            <img  src="/images/viruses/sars-cov-2_icon.svg" alt="metag" class="img-responsive" style="object-fit: contain; justify-content:center; display:flex; align-items:center; width:80%"/>
+                    </span>
                 </a>
             </div>
             <div class="panel-body">
@@ -67,10 +64,9 @@ toc: false
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <a href="/people">
-                <span class="fa-stack fa-5x">
-                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                      <i class="fa fa-id-badge fa-stack-1x fa-inverse"></i>
-                </span>
+                <span class="fa-stack fa-5x" style="object-fit: contain; justify-content:center; display:flex; align-items:center;">
+                            <img  src="/images/artic-logo-small.svg" alt="metag" class="img-responsive" style="object-fit: contain; justify-content:center; display:flex; align-items:center; width:80%"/>
+                    </span>
                 </a>
             </div>
             <div class="panel-body">
