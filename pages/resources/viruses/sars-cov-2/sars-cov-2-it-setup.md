@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Jan 22, 2020
 tags: [protocol] 
-permalink: sars-cov-2-it-setup.html
+permalink: /viruses/sars-cov-2/sars-cov-2-it-setup.html
 folder: sars-cov-2
 title_text: "SARS-CoV-2 coronavirus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"

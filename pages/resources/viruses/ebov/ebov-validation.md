@@ -4,7 +4,7 @@ keywords: ebov
 last_updated: May 24, 2018
 tags: [ebov]
 sidebar: artic_sidebar
-permalink: ebov-validation.html
+permalink: /viruses/ebov/ebov-validation.html
 toc: false
 hide_sidebar: true
 folder: ebov
@@ -35,7 +35,7 @@ This validation acted as a test of our recently published standard operating pro
 
 Sequence coverage (log scale) at 30 minute and 2 hour time points for three different trains:
 
-![Coverage by primer pair](/assets/images/ebov-validation/coverage.png)
+![Coverage by primer pair](/images/ebov-validation/coverage.png)
 
 ## Results
 
@@ -44,15 +44,15 @@ sequences in context:
 
 ### Mayinga strain
 
-![Mayinga tree](/assets/images/ebov-validation/Mayinga-tree.png)
+![Mayinga tree](/images/ebov-validation/Mayinga-tree.png)
 
 ### Makona strain
 
-![Makona tree](/assets/images/ebov-validation/Makona-tree.png)
+![Makona tree](/images/ebov-validation/Makona-tree.png)
 
 ### Kikwit strain
 
-![Kikwit tree](/assets/images/ebov-validation/Kikwit-tree.png)
+![Kikwit tree](/images/ebov-validation/Kikwit-tree.png)
 
 Consensus sequences for 2 hour run:
 
@@ -95,6 +95,6 @@ file='wellcome-logo-red-small.png'
 url='http://wellcome.ac.uk'
 width='17%'
 title='Funded by the Wellcome Trust'
-subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
+subtitle='Collaborators Award 206298/Z/17/Z --- <a href="https://artic.network">ARTIC network</a>'
 %}
 

@@ -8,39 +8,39 @@ entries:
         folderitems:
 
         - title: About ARTIC
-          url: index.html
+          url: /index.html
           output: web
           type: homepage
 
         - title: News
-          url: news.html
+          url: /news.html
           output: web
 
       - title: Resources
         output: web
-        url: resources.html
+        url: /resources.html
         folderitems:
 
         - title: Resources overview
           output: web
-          url: resources.html
+          url: /resources.html
           subfolders:
 
           - title: Virus sequencing resources
             output: web
-            url: viruses
+            url: /viruses
             subfolderitems:
 
             - title: MPXV | mpox
-              url: mpxv
+              url: /viruses/mpxv
               output: web
 
             - title: SARS-CoV-2 | COVID-19
-              url: sars-cov-2
+              url: /viruses/sars-cov-2
               output: web
 
             - title: EBOV | Ebola virus
-              url: ebov
+              url: /viruses/ebov
               output: web
 
 #       - title: Protocols
@@ -53,11 +53,11 @@ entries:
             subfolderitems:
 
               - title: ARTIC tiled-amplicon
-                url: protocol_amplicon.html
+                url: /protocols/amplicon.html
                 output: web
           
               - title: Metagenomics
-                url: protocol_metagenomics.html
+                url: /protocols/metagenomics.html
                 output: web
           
       - title: Documentation
@@ -65,15 +65,15 @@ entries:
         folderitems:
 
           - title: Documentation overview
-            url: documentation.html
+            url: /documentation.html
             output: web
 
           - title: Tutorials
-            url: documentation/tutorials.md
+            url: /documentation/tutorials.html
             output: web
 
           - title: Guides
-            url: documentation/guides.md
+            url: /documentation/guides.html
             output: web
 
       - title: Projects
@@ -81,15 +81,15 @@ entries:
         folderitems:
 
           - title: Projects overview
-            url: projects
+            url: /projects
             output: web
 
           - title: ARTIC-1
-            url: projects/artic1.html
+            url: /projects/artic1.html
             output: web
 
           - title: ARTIC-2
-            url: projects/artic1.html
+            url: /projects/artic2.html
             output: web
 
 
@@ -98,15 +98,15 @@ entries:
         folderitems:
 
           - title: People overview
-            url: people
+            url: /people
             output: web
 
           - title: ARTIC Network
-            url: people/artic-network.html
+            url: /people/artic-network.html
             output: web
 
-          - title: Collaborators
-            url: people/collaborators.html
-            output: web
+#          - title: Collaborators
+#            url: people/collaborators.html
+#            output: web
 
 

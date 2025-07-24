@@ -3,7 +3,7 @@ keywords: protocol
 layout: document
 last_updated: Mar 29, 2020
 tags: [protocol]
-permalink: /sars-cov-2-bioinformatics-sop.html
+permalink: /viruses/sars-cov-2/sars-cov-2-bioinformatics-beta-sop.html
 folder: sars-cov-2
 title_text: "SARS-CoV-2 coronavirus bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
@@ -20,13 +20,13 @@ category: sars-cov-2
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/ebov/ebov-seq-sop.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](https://dx.doi.org/10.17504/protocols.io.bbmuik6w) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
 '
 %}
 
 ## Preparation
 
-Set up the computing environment as described here in this document: [ncov2019-it-setup](ncov2019-it-setup.html). This should be done and tested prior to sequencing, particularly if this will be done in an environment without internet access or where this is slow or unreliable. Once this is done, the bioinformatics can be performed largely off-line. If you are already using the [lab-on-an-SSD](https://github.com/artic-network/fieldbioinformatics/tree/master/lab-on-an-ssd), you can skip this step.
+Set up the computing environment as described here in this document: [sars-cov-2-it-setup](sars-cov-2-it-setup.html). This should be done and tested prior to sequencing, particularly if this will be done in an environment without internet access or where this is slow or unreliable. Once this is done, the bioinformatics can be performed largely off-line. If you are already using the [lab-on-an-SSD](https://github.com/artic-network/fieldbioinformatics/tree/master/lab-on-an-ssd), you can skip this step.
 
 ### Updating the environment
 
