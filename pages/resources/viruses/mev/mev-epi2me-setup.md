@@ -82,4 +82,5 @@ Finally click “Launch workflow”. It will then start running. The runtime wil
 
 ![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_ampliconnf_done.png)
 
+The output directory will contain a directory for each of your samples, along with two report files.
 
