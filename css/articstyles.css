@@ -302,6 +302,15 @@ li.dropdownActive a {
     margin-top:10px;
 }
 
+.navbar-inverse .navbar-header > a,
+.navbar-inverse .navbar-header > a:hover,
+.navbar-inverse .navbar-header > a:focus,
+.navbar-inverse .navbar-header > a:active {
+    background: transparent;
+    color: inherit;
+    outline: none;
+}
+
 .post-content .rssfeedLink {
     color: #248EC2;
 }
