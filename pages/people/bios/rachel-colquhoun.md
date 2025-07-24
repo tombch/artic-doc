@@ -1,7 +1,7 @@
 ---
 title: Rachel Colquhoun
 institution: University of Edinburgh
-biography: Rachel Colquhoun is a senior research excutive at the Institute of Ecology and Evolution in the University of Edinburgh.
+biography: Rachel Colquhoun is a senior researcher at the University of Edinburgh. She develops bioinformatic tools for real-time pathogen surveillance, with a focus on methods for metagenomic sequence data.
 project: artic2
 role: investigator
 column: 2
