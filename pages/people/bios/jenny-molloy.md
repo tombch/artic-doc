@@ -1,5 +1,6 @@
 ---
 title: Jenny Molloy
+surname: Molloy
 institution: University of Cambridge
 biography:
 project: artic2

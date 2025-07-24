@@ -94,7 +94,7 @@ folder: people
         </div>
     </div>
     <div class="row" style="display: flex; flex-wrap: wrap;">
-        {% assign artic2_bios = site.html_pages | where: "folder", "bios" | where: "project", "artic2" | sort: "title" %}
+        {% assign artic2_bios = site.html_pages | where: "folder", "bios" | where: "project", "artic2" | sort: "surname" %}
         {% for bio in artic2_bios %}
             <div class="col-md-4" style="display: flex; margin-bottom: 20px;">
                 <div class="media" style="width: 100%;">

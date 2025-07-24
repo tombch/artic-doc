@@ -1,5 +1,6 @@
 ---
 title: Josh Quick
+surname: Quick
 institution: University of Birmingham
 biography:
 project: artic2

@@ -1,5 +1,6 @@
 ---
 title: Caroline Colijn
+surname: Colijn
 institution: Simon Fraser University
 biography: Caroline Colijn is a professor at Simon Fraser University.
 project: artic2

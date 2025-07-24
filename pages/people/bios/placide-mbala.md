@@ -1,5 +1,6 @@
 ---
 title: Placide Mbala-Kingebeni
+surname: Mbala-Kingebeni
 institution: 
 biography:
 project: artic2

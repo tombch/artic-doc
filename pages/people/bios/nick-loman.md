@@ -1,5 +1,6 @@
 ---
 title: Nick Loman
+surname: Loman
 institution: University of Birmingham
 biography: Nick Loman is a professor at the University of Birmingham.
 project: artic2

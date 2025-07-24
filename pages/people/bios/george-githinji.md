@@ -1,5 +1,6 @@
 ---
 title: George Githinji
+surname: Githinji
 institution: KEMRI-Wellcome Trust Research Programme
 biography:
 project: artic2
