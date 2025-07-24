@@ -6,7 +6,7 @@ last_updated: Aug 23, 2024
 tags: [protocol] 
 permalink: /viruses/mev/mev-background.html
 folder: mpxv
-title_text: "Mpox virus sequencing"
+title_text: "MeV virus sequencing"
 subtitle_text: "A primer on measles virus genomic epidemiology and why we do it"
 document_name: "ARTIC-MeV-guide"
 version: v1.0.0

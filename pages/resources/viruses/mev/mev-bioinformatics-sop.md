@@ -22,7 +22,7 @@ category: mev-cli
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/mev/mev-sequencing-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/mev/mev-sequencing-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
 '
 %}
 

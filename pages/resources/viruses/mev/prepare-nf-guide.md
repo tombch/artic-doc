@@ -77,7 +77,7 @@ Select the appropriate technology form the “Sequencing platform” drop down m
 
 Next, browse for and select the CSV or XLS file containing your metadata in the “Metadata” section. 
 
-Enter the name of the amplicon scheme using the nomenclature in [Pimalscheme labs]((https://labs.primalscheme.com)), e.g., artic-inrb-mpox/2500/v1.0.0. Make sure that the primer scheme matches the one you used for your sequencing. 
+Enter the name of the amplicon scheme using the nomenclature in [Primalscheme labs](https://labs.primalscheme.com), e.g., artic-inrb-mpox/2500/v1.0.0. Make sure that the primer scheme matches the one you used for your sequencing. 
 
 If your scheme is not listed, you can use the “Path to custom amplicon scheme” section to provide the path to the directory containing your appropriately named scheme bed and fasta files (ensure the directory contains a primer.bed and a reference.fasta file – both are included in the output of PrimalScheme). 
 
