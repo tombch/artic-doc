@@ -9,8 +9,6 @@ permalink: /projects/artic1
 folder: projects
 ---
 
-# ARTIC-1
-
 ## Motivation
 
 This project is developing an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
