@@ -1,7 +1,7 @@
 ---
 title: Bede Constantinides
 institution: University of Birmingham
-biography: Bede is a research fellow at the University of Birmingham researching bioinformatic methods for metagenomics.
+biography: Bede is a postdoctoral research fellow at the University of Birmingham where he develops computational methods for (meta)genomic epidemiology.
 project: artic2
 role: researcher
 column: 1
