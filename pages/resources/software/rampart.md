@@ -2,7 +2,7 @@
 title: RAMPART
 keywords: resources
 summary: "Rampart software"
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: /software/rampart
 folder: software
 tags: [resources, software]

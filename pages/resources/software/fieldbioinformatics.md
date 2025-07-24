@@ -2,7 +2,7 @@
 title: Fieldbioinformatics
 keywords: resources
 summary: "Fieldbioinformatics software"
-sidebar: resources_sidebar
+sidebar: artic_sidebar
 permalink: /software/fieldbioinformatics
 folder: software
 tags: [resources, software]

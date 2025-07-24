@@ -114,5 +114,8 @@ sidebars:
 description: "ARTIC network is a project funded by the Wellcome Trust to develop systems, protocols and bioinformatics for end-to-end pathogen genomics."
 # the description is used in the feed.xml file
 
+tutorials_root_url: /pages/documentation/tutorials
+# the base path for tutorial assets like images and files
+
 github: [metadata]
 

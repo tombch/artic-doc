@@ -4,7 +4,7 @@ keywords: protocol
 layout: document
 last_updated: Aug 20 2024
 tags: [protocol] 
-permalink: mpxv-it-setup.html
+permalink: /viruses/mpxv/mpxv-it-setup.html
 folder: mpxv
 title_text: "MPXV bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
@@ -27,7 +27,7 @@ content='**Overview:** Instructions for setting up a computing environment for r
 <br />
 
 This document is part of the MPXV sequencing protocol package:
-: [http://artic.network/mpxv](http://artic.network/ncov-2019)
+: [http://artic.network/mpxv](/viruses/mpxv)
 
 #### Related documents:
 

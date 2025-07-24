@@ -19,15 +19,15 @@
 
 Open EPI2ME. From the left-hand side panel, select "Launch". 
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_launch.png)
+![](/images/prepare-nf/Screenshot_preparenf_launch.png)
 
 Then select “Import workflow” and "Import from Github".
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_import.png)
+![](/images/prepare-nf/Screenshot_preparenf_import.png)
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” ([https://github.com/artic-network/prepare-nf](https://github.com/artic-network/prepare-nf "Prepare-nf download link")):
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_link.png)
+![](/images/prepare-nf/Screenshot_preparenf_link.png)
 
 Once it has downloaded, it will be ready in the Available Workflows tab. Select it and you will be taken to a landing page for this workflow.
 
@@ -35,11 +35,11 @@ Once it has downloaded, it will be ready in the Available Workflows tab. Select 
 
 From the workflow landing page, click “Launch”.
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_initiate.png)
+![](/images/prepare-nf/Screenshot_preparenf_initiate.png)
 
 Select the appropriate technology form the “Sequencing platform” drop down menu, along with the path to the fastq files directory in “Run Directory”. 
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_platform_directory.png)
+![](/images/prepare-nf/Screenshot_preparenf_platform_directory.png)
 
 Next, browse for and select the CSV or XLS file containing your metadata in the “Metadata” section. 
 
@@ -47,7 +47,7 @@ Enter the name of the amplicon scheme using the nomenclature in Pimalscheme labs
 
 (TO EDIT: if scheme not available...)
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_metadata_amplicon.png)
+![](/images/prepare-nf/Screenshot_preparenf_metadata_amplicon.png)
 
 Finally click “Launch workflow” and “Launch” in the pop up window to initiate the workflow. You will be redirected to the “Progress” panel with bars indicating the run progress. The runtime will depend on the size of your files and the speed of your computer, but it usually takes XXX minutes. The bar will change to green and ‘Complete’ when it has finished.
  
