@@ -21,7 +21,7 @@ concerning changes in the pattern of infectious disease anywhere in the world, b
 tools such as metagenomics. This could be a cluster of hemorrhagic fever of unknown aetiology but 
 equally a spike of incidence in a known endemic arbovirus or childhood viral disease like measles. 
 What links these events is that the investigations have to be sufficiently rapid that the information 
-acquired can lead to effective response. ARTIC 2.0 will create a fully equipped toolbox where a 
+acquired can lead to effective response. ARTIC 2.0 is creating a fully equipped toolbox where a 
 robust, low-cost and accessible set of tools, that make use of the same equipment, reagents and 
 bioinformatics, are ready to be rapidly applied to a wide range of investigations guided by an 
 extensive knowledge base and flexible analysis pipelines.
