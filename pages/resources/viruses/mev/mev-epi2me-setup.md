@@ -8,7 +8,7 @@ tags:
 summary: null
 permalink: /viruses/mev/mev-ont-epi2me-sop.html
 folder: mev
-title_text: Running the ARTIC MEV analysis pipelines using EPI2ME
+title_text: Running the ARTIC amplicon-nf analysis pipeline using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-MEV-EPI2ME-Setup
 version: v1.0
@@ -56,6 +56,7 @@ Open EPI2ME. From the left-hand side panel, select "Launch".
 Then select “Import workflow" and "Import from Github".
 
 ![](/images/prepare-nf/Screenshot_preparenf_import.png )
+
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” [https://github.com/artic-network/amplicon-nf](https://github.com/artic-network/amplicon-nf):
 
