@@ -51,11 +51,12 @@ The first time you run EPI2ME it may need to install some additional software. I
 
 Open EPI2ME. From the left-hand side panel, select "Launch". 
 
-![](/images/prepare-nf/Screenshot_preparenf_launch.png)
+![](/images/prepare-nf/Screenshot_preparenf_launch.png )
   
 Then select “Import workflow" and "Import from Github".
 
-![](/images/prepare-nf/Screenshot_preparenf_import.png)
+![](/images/prepare-nf/Screenshot_preparenf_import.png )
+
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” [https://github.com/artic-network/amplicon-nf](https://github.com/artic-network/amplicon-nf):
 
