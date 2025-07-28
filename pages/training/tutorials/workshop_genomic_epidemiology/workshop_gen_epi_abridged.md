@@ -8,7 +8,8 @@ permalink: /tutorials/workshop_gen_epi_abridged.html
 category: tutorial
 ---
 
-{% capture root_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/{% endcapture %}
+{% capture files_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/files/{% endcapture %}
+{% capture root_url %}{{ site.tutorials_root_url }}/workshop_genomic_epidemiology/images/{% endcapture %}
 
 
 ## Introduction
@@ -62,7 +63,7 @@ You may need to wait a few minutes, but results should show up automatically.
 
 We now have virus genome sequences for each of the first 20 cases compiled into a single FASTA file.
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.fasta</samp>' and <a href="{{ root_url }}files/abridged/outbreak.fasta">can be downloaded from here</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak.fasta</samp>' and <a href="{{ files_url }}abridged/outbreak.fasta">can be downloaded from here</a>.</div>
 
 Given the BLAST hits, it seems likely that the sequences are Henipavirus nipahense (NiV) genomes. To confirm this, and to investigate how the samples fit into the context of known NiV diversity, we will acquire a background dataset of the most closely related viruses. For this we will use the NCBI Virus resource, which is a community portal for viral data that is archived on Genbank. 
 
@@ -85,7 +86,7 @@ For the purposes of this exercise, we have already prepared all the complete rec
 For example:<br>
 `>MH523641|NiV|India|human|2018-05-21`'
  %}
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak_NiV.fasta</samp>' and <a href="{{ root_url }}files/abridged/outbreak_NiV.fasta">can be downloaded from here</a>.<br>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data file is called '<samp>outbreak_NiV.fasta</samp>' and <a href="{{ files_url }}abridged/outbreak_NiV.fasta">can be downloaded from here</a>.<br>
 This file has both the initial case sequences and the background dataset combined into one file. This file contains 82 genomes (our 20 outbreak genomes and 62 background genomes - this is how many were available at time of writing.<br><br> 
 If actually creating this dataset, you would need to combine these files yourself (either copy & paste, or through the command line).</div>
 
@@ -115,7 +116,7 @@ When ready, return to the results page and click on `Fasta format` to download t
 
 The downloaded file will probably have a long and uninformative name such as: `_out.2502241929466CMs0BqwdZEKASUk69JNo3lsfnormal.fasta` -- rename this file to `outbreak_NiV_aligned.fasta`
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from MAFFT, `outbreak_NiV_aligned.fasta`, <a href="{{ root_url }}files/abridged/outbreak_NiV_aligned.fasta"> can be downloaded from here</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from MAFFT, `outbreak_NiV_aligned.fasta`, <a href="{{ files_url }}abridged/outbreak_NiV_aligned.fasta"> can be downloaded from here</a>.</div>
 
 ### Estimate a Maximum Likelihood tree
 
@@ -151,7 +152,7 @@ You can examine an ASCII version of the phylogeny in the Full Result tab, but to
 
 The file containing the maximum likelihood tree will be the one called `outbreak_NiV_aligned.fasta.treefile`.
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from IQTREE2, `outbreak_NiV_aligned.fasta.treefile`, <a href="{{ root_url }}files/abridged/outbreak_NiV_aligned.fasta.treefile"> can be downloaded from here</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from IQTREE2, `outbreak_NiV_aligned.fasta.treefile`, <a href="{{ files_url }}abridged/outbreak_NiV_aligned.fasta.treefile"> can be downloaded from here</a>.</div>
 <br>
 We will use `FigTree` to look at the treefile (the file ending in `.treefile`). 
 
@@ -177,7 +178,7 @@ Take a look at the root-to-tip and residual tabs.
 {% include sitrep.html content='As of 12th July 2024, 60 human cases of Nipah have been reported. In additional to new cases, retrospective investigation has revealed a number of cases that had not previously been attributed to specific infectious agent. Liasing with the National Animal Health Agency has revealed a concurrent outbreak in NiV in livestock pigs. Of the cases in humans and pigs, a subset have been sent for targeted sequencing, however the results are not yet out. 
 ' %}
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data from the second sequencing run can be downloaded at <a href="{{ root_url }}files/abridged/outbreak_animals.fasta">this link</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> The data from the second sequencing run can be downloaded at <a href="{{ files_url }}abridged/outbreak_animals.fasta">this link</a>.</div>
 
 Download the provided FASTA alignment file and decompress. This FASTA file contains NiV genome sequences from both the initial sequencing run and a second sequencing run that contained both human and pig NiV samples. These are aligned sequences. We will attempt to answer whether the human and animal outbreaks are linked and what is the source of these cases.
 
@@ -185,7 +186,7 @@ Download the provided FASTA alignment file and decompress. This FASTA file conta
 
 Using IQTREE as described above, estimate a maximum likelihood phylogeny with the `outbreak_animals.fasta` file. 
 
-<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from IQTREE2, `outbreak_NiV_aligned.fasta.treefile`, <a href="{{ root_url }}files/abridged/outbreak_animals.fasta.treefile"> can be downloaded from here</a>.</div>
+<div class="alert alert-success" role="alert"><i class="fa fa-download fa-lg"></i> For convenience this output file from IQTREE2, `outbreak_NiV_aligned.fasta.treefile`, <a href="{{ files_url }}abridged/outbreak_animals.fasta.treefile"> can be downloaded from here</a>.</div>
 
 Inspect the phylogeny using `TempEst` (parse tip dates and select `best fitting root`). Note that the tips are labelled with host species. 
 {% include image.html file="image23.png" prefix=root_url %}
